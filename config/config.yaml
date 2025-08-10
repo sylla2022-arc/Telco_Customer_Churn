@@ -1,0 +1,7 @@
+# Data ingestion configuration
+artifact_root : artifact
+
+data_ingestion:
+  root_dir : artifact/data_ingestion
+  source_dir : data_churn/Customer_Churn.csv
+  raw_file_path : artifact/data_ingestion/raw
