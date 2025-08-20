@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/935189174561943914/fcce66709959450da74645dda51f5796/artifacts
+end_time: 1755646599048
+entry_point_name: ''
+experiment_id: '935189174561943914'
+lifecycle_stage: active
+run_id: fcce66709959450da74645dda51f5796
+run_name: dazzling-vole-89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755646472144
+status: 3
+tags: []
+user_id: sylla

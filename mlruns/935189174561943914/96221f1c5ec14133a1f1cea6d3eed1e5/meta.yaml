@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/935189174561943914/96221f1c5ec14133a1f1cea6d3eed1e5/artifacts
+end_time: 1755688882235
+entry_point_name: ''
+experiment_id: '935189174561943914'
+lifecycle_stage: active
+run_id: 96221f1c5ec14133a1f1cea6d3eed1e5
+run_name: dashing-moth-98
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755688767864
+status: 3
+tags: []
+user_id: sylla

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/935189174561943914/0ef4bc893be24825a94c923e40ac365d/artifacts
+end_time: 1755541152779
+entry_point_name: ''
+experiment_id: '935189174561943914'
+lifecycle_stage: active
+run_id: 0ef4bc893be24825a94c923e40ac365d
+run_name: grandiose-gnat-61
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755541152289
+status: 4
+tags: []
+user_id: sylla

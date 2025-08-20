@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/935189174561943914/d3659b6301234c6db6ef422466d368f5/artifacts
+end_time: 1755646972014
+entry_point_name: ''
+experiment_id: '935189174561943914'
+lifecycle_stage: active
+run_id: d3659b6301234c6db6ef422466d368f5
+run_name: abundant-sheep-409
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755646837364
+status: 3
+tags: []
+user_id: sylla

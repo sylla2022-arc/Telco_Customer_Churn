@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/935189174561943914/0187b6bc62d7487490a303d706ac2677/artifacts
+end_time: 1755608474636
+entry_point_name: ''
+experiment_id: '935189174561943914'
+lifecycle_stage: active
+run_id: 0187b6bc62d7487490a303d706ac2677
+run_name: awesome-whale-471
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755608336871
+status: 4
+tags: []
+user_id: sylla

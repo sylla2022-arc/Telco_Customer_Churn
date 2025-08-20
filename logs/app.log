@@ -1,1 +1,30 @@
-2025-08-10 17:32:46- src.Churn_Project.logging.logger- INFO- yaml file succesfully loaded from config\config.yaml
+2025-08-20 13:32:39- src.Churn_Project.logging.logger- INFO- Test log: main.py started
+2025-08-20 13:32:39- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion started....
+2025-08-20 13:32:39- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-20 13:32:39- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-20 13:32:39- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-20 13:32:39- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-20 13:32:39- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion
+2025-08-20 13:32:39- src.Churn_Project.logging.logger- INFO- DI: Folder successfully crated to artifact/data_ingestion
+2025-08-20 13:32:39- src.Churn_Project.logging.logger- INFO- Data ingestion initiated
+2025-08-20 13:32:39- src.Churn_Project.logging.logger- INFO- Data loaded successfully from data_churn/Customer_Churn.csv
+2025-08-20 13:32:39- src.Churn_Project.logging.logger- INFO- Data shape before dropna: (7043, 21)
+2025-08-20 13:32:39- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion/raw
+2025-08-20 13:32:40- src.Churn_Project.logging.logger- INFO- Data saved successfully to artifact/data_ingestion/raw/data_brute.csv
+2025-08-20 13:32:40- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion completed succesfully....
+2025-08-20 13:32:40- src.Churn_Project.logging.logger- INFO- >>>> Data validation started....
+2025-08-20 13:32:40- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-20 13:32:40- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-20 13:32:40- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-20 13:32:40- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-20 13:32:40- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_validation
+2025-08-20 13:32:40- src.Churn_Project.logging.logger- INFO- DV: Folder successfully crated to artifact/data_validation
+2025-08-20 13:32:42- src.Churn_Project.logging.logger- INFO- Data validation initiated
+2025-08-20 13:32:44- src.Churn_Project.logging.logger- INFO- Data loaded successfully from artifact\data_ingestion\raw\data_brute.csv
+2025-08-20 13:32:44- src.Churn_Project.logging.logger- INFO- log params  to mlflow commpleted
+2025-08-20 13:32:44- src.Churn_Project.logging.logger- INFO- Type of all_feature: <class 'dict'>
+2025-08-20 13:32:44- src.Churn_Project.logging.logger- INFO- Values of features {'customerID': 'object', 'gender': 'object', 'SeniorCitizen': 'object', 'Partner': 'object', 'Dependents': 'object', 'tenure': 'int64', 'PhoneService': 'object', 'MultipleLines': 'object', 'InternetService': 'object', 'OnlineSecurity': 'object', 'OnlineBackup': 'object', 'DeviceProtection': 'object', 'TechSupport': 'object', 'StreamingTV': 'object', 'StreamingMovies': 'object', 'Contract': 'object', 'PaperlessBilling': 'object', 'PaymentMethod': 'object', 'MonthlyCharges': 'float64', 'TotalCharges': 'object'}
+2025-08-20 13:32:44- src.Churn_Project.logging.logger- INFO- Target column value: {'Churn': 'object'}
+2025-08-20 13:32:44- src.Churn_Project.logging.logger- INFO- log metrics to mlflow commpleted
+2025-08-20 13:33:48- src.Churn_Project.logging.logger- INFO- Data validation commpleted
+2025-08-20 13:33:48- src.Churn_Project.logging.logger- INFO- >>>> Data validation completed succesfully....

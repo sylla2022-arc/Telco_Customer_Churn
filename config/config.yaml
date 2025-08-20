@@ -4,4 +4,11 @@ artifact_root : artifact
 data_ingestion:
   root_dir : artifact/data_ingestion
   source_dir : data_churn/Customer_Churn.csv
-  raw_file_path : artifact/data_ingestion/raw
+  raw_file_path : artifact/data_ingestion/raw/data_brute.csv
+
+data_validation:
+  root_dir : artifact/data_validation  
+  data_dir : artifact/data_ingestion/raw/data_brute.csv
+  status_file : artifact/data_validation/status.txt
+
+

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/935189174561943914/f118810d2a6144a1b1988cca03d855e7/artifacts
+end_time: 1755607717728
+entry_point_name: ''
+experiment_id: '935189174561943914'
+lifecycle_stage: active
+run_id: f118810d2a6144a1b1988cca03d855e7
+run_name: gaudy-loon-55
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755607561348
+status: 4
+tags: []
+user_id: sylla

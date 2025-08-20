@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/935189174561943914/4420e4b4f7904986bed177bede3857ad/artifacts
+end_time: 1755610534537
+entry_point_name: ''
+experiment_id: '935189174561943914'
+lifecycle_stage: active
+run_id: 4420e4b4f7904986bed177bede3857ad
+run_name: smiling-hawk-347
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755610416437
+status: 4
+tags: []
+user_id: sylla

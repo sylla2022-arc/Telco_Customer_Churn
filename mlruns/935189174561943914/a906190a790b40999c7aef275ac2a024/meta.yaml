@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/935189174561943914/a906190a790b40999c7aef275ac2a024/artifacts
+end_time: 1755541204289
+entry_point_name: ''
+experiment_id: '935189174561943914'
+lifecycle_stage: active
+run_id: a906190a790b40999c7aef275ac2a024
+run_name: redolent-gnu-694
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755541203653
+status: 4
+tags: []
+user_id: sylla

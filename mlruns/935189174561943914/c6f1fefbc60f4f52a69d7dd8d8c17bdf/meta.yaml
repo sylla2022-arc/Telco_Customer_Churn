@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/935189174561943914/c6f1fefbc60f4f52a69d7dd8d8c17bdf/artifacts
+end_time: 1755646011461
+entry_point_name: ''
+experiment_id: '935189174561943914'
+lifecycle_stage: active
+run_id: c6f1fefbc60f4f52a69d7dd8d8c17bdf
+run_name: nosy-stork-293
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755645812825
+status: 3
+tags: []
+user_id: sylla
