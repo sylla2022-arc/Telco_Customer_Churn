@@ -55,3 +55,15 @@ class DataTransformationConfig:
         self.y_train_array = y_train_array
         self.y_test_array = y_test_array
         self.preprocessor_obj = preprocessor_obj
+
+@dataclass
+class ModelTrainerConfig:
+    """
+    Configuration for data transformation.
+    """
+    root_dir: Path 
+    model_obj : Path
+
+    def __init__(self, root_dir, model_obj):
+        self.root_dir = root_dir
+        self.model_obj = model_obj

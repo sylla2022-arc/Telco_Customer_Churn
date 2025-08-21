@@ -1,4 +1,4 @@
-from src.Churn_Project.entity.config_entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig
+from src.Churn_Project.entity.config_entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainerConfig
 from src.Churn_Project.constants import CONFIG_YAML_FILE_PATH, COL_YAML_FILE_PATH
 from src.Churn_Project.utils.utility import (read_yaml_file, create_directory)
 from pathlib import Path
@@ -75,3 +75,14 @@ class ConfigurationManager :
             preprocessor_obj = Path(preprocessor_obj)
         )
         return data_transformation_config
+    
+    def get_model_trainer_config(self) -> ModelTrainerConfig :
+        config = self.config.model_trainer
+
+        create_directory([config.root_dir])
+
+        model_trainer = ModelTrainerConfig(
+            root_dir= Path(config.root_dir),
+            model_obj= Path(config.model_obj)
+        )
+        return model_trainer

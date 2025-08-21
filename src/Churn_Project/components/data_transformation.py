@@ -31,6 +31,8 @@ class DataTransformation:
         df['TotalCharges'] = df['TotalCharges'].replace('', np.nan)
         df['TotalCharges'] = df['TotalCharges'].fillna(df['MonthlyCharges'])
         df['TotalCharges'] = df['TotalCharges'].astype(float)
+        df.drop(columns='id column', inplace=True)
+        
         return df
 
     def get_preprocessor_object(self, numerical_features, cat_feature):

@@ -4,6 +4,8 @@ from src.Churn_Project.logging.logger import logging
 import sys
 from box import ConfigBox #type:ignore
 import joblib
+from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
+from catboost import CatBoostClassifier
 
 def read_yaml_file(path_yml) -> ConfigBox :
     try:
@@ -38,6 +40,18 @@ def save_array_data(array_path, array):
     joblib.dump(array, array_path)
     print(f"Données sauvegardées dans {array_path}")
 
+def load_array_data(array_path):
+
+    if not os.path.exists(array_path):
+        logging.error(f"Le fichier yaml {array_path} n'existe pas.")
+        raise FileNotFoundError(f"Le fichier yaml {array_path} n'existe pas.")
+
+    with open(array_path, 'rb') as file:
+        content = joblib.load(file)
+        logging.info(f"Numpy array sucessfully loaded from {array_path}")
+        print(f"Numpy array sucessfully loaded from {array_path}")
+        return content
+
 
 def save_obj(file_path, obj):
     dir_path = os.path.dirname(file_path)
@@ -46,4 +60,45 @@ def save_obj(file_path, obj):
     with open(file_path, 'wb') as file_obj:
         joblib.dump(obj, file_obj)
     print(f"Objet sauvegardé dans {file_path}")
+
+def load_obj(file_path):
+    if not os.path.exists(file_path):
+        logging.error(f"Le fichier yaml {file_path} n'existe pas.")
+        raise FileNotFoundError(f"Le fichier yaml {file_path} n'existe pas.")
+
+    with open(file_path, 'rb') as file_obj:
+        obj = joblib.load(file_obj)
+        logging.info(f"Numpy array sucessfully loaded from {file_obj}")
+        print(f"Numpy array sucessfully loaded from {file_obj}")
+        return obj
+
+
+def hyperparameter_tuning(X_train, y_train, model_name, param_grid,
+                          use_random_search=False, n_iter=10  ):
+    if model_name == "CatBoostClassifier":
+        model = CatBoostClassifier(verbose=100, random_state=42, class_weights = [1, 3])
+
+    else:
+        raise ValueError(f"Unknown model name: {model_name}")
+    if use_random_search and param_grid:
+                grid = RandomizedSearchCV(
+                    estimator=model,
+                    param_distributions=param_grid,
+                    n_iter=n_iter,
+                    cv=3,
+                    n_jobs=-1,
+                    refit=True,
+                    verbose=1,
+                    random_state=42
+                )
+    else:
+        grid = GridSearchCV(estimator=model,
+                        param_grid=param_grid,
+                        cv=3,
+                        refit=True,
+                        n_jobs=-1,
+                        verbose=1
+    )
+    grid.fit(X_train, y_train)
+    return grid
 

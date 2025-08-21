@@ -13,3 +13,5 @@ scipy==1.10.1
 ipykernel==6.28.0
 flask==2.3.3
 python-box==6.1.0
+
+catboost==1.2.2

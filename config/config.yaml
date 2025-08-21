@@ -20,4 +20,8 @@ data_transformation:
   y_test_array : artifact/data_transformation/data_transformed/y_test_array.npy
   preprocessor_obj: artifact/data_transformation/preprocessor/preprocessor.pkl
 
+model_trainer:
+  root_dir : artifact/model_trainer
+  model_obj: artifact/model_trainer/save_model/model.pkl
+
 
