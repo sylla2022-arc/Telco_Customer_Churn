@@ -28,3 +28,92 @@
 2025-08-20 13:32:44- src.Churn_Project.logging.logger- INFO- log metrics to mlflow commpleted
 2025-08-20 13:33:48- src.Churn_Project.logging.logger- INFO- Data validation commpleted
 2025-08-20 13:33:48- src.Churn_Project.logging.logger- INFO- >>>> Data validation completed succesfully....
+2025-08-21 00:08:01- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-21 00:08:01- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-21 00:08:01- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-21 00:08:02- src.Churn_Project.logging.logger- INFO- Fichier chargé avec succès depuis artifact\data_ingestion\raw\data_brute.csv
+2025-08-21 00:08:02- src.Churn_Project.logging.logger- ERROR- Erreur lors de la transformation des données : Les colonnes suivantes sont manquantes : ['churn']
+2025-08-21 00:12:02- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-21 00:12:02- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-21 00:12:02- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-21 00:12:02- src.Churn_Project.logging.logger- INFO- Fichier chargé avec succès depuis artifact\data_ingestion\raw\data_brute.csv
+2025-08-21 00:12:02- src.Churn_Project.logging.logger- ERROR- Erreur lors de la transformation des données : Les colonnes suivantes sont manquantes : ['churn']
+2025-08-21 00:13:20- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-21 00:13:20- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-21 00:13:20- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-21 00:13:21- src.Churn_Project.logging.logger- INFO- Fichier chargé avec succès depuis artifact\data_ingestion\raw\data_brute.csv
+2025-08-21 00:13:21- src.Churn_Project.logging.logger- INFO- Données divisées en ensembles d'entraînement et de test
+2025-08-21 00:13:21- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-21 00:13:21- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-21 00:13:21- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-21 00:13:21- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-21 00:13:21- src.Churn_Project.logging.logger- INFO- Répertoires créés avec succès.
+2025-08-21 00:13:21- src.Churn_Project.logging.logger- ERROR- Erreur lors de la création du préprocesseur : OneHotEncoder.__init__() got an unexpected keyword argument 'sparse_output'
+2025-08-21 00:13:21- src.Churn_Project.logging.logger- ERROR- Erreur lors de la transformation des données : OneHotEncoder.__init__() got an unexpected keyword argument 'sparse_output'
+2025-08-21 00:15:04- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-21 00:15:04- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-21 00:15:04- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-21 00:15:04- src.Churn_Project.logging.logger- INFO- Fichier chargé avec succès depuis artifact\data_ingestion\raw\data_brute.csv
+2025-08-21 00:15:04- src.Churn_Project.logging.logger- INFO- Données divisées en ensembles d'entraînement et de test
+2025-08-21 00:15:04- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-21 00:15:04- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-21 00:15:04- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-21 00:15:04- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-21 00:15:04- src.Churn_Project.logging.logger- INFO- Répertoires créés avec succès.
+2025-08-21 00:15:05- src.Churn_Project.logging.logger- ERROR- Erreur lors de la transformation des données : save_array_data() got an unexpected keyword argument 'path'
+2025-08-21 00:17:02- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-21 00:17:02- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-21 00:17:02- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-21 00:17:02- src.Churn_Project.logging.logger- INFO- Fichier chargé avec succès depuis artifact\data_ingestion\raw\data_brute.csv
+2025-08-21 00:17:02- src.Churn_Project.logging.logger- INFO- Données divisées en ensembles d'entraînement et de test
+2025-08-21 00:17:02- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-21 00:17:02- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-21 00:17:02- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-21 00:17:02- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-21 00:17:02- src.Churn_Project.logging.logger- INFO- Répertoires créés avec succès.
+2025-08-21 00:17:02- src.Churn_Project.logging.logger- INFO- Données transformées et préprocesseur sauvegardés avec succès.
+2025-08-21 12:01:07- src.Churn_Project.logging.logger- INFO- Test log: main.py started
+2025-08-21 12:01:07- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion started....
+2025-08-21 12:01:07- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-21 12:01:07- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-21 12:01:07- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-21 12:01:07- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-21 12:01:07- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion
+2025-08-21 12:01:07- src.Churn_Project.logging.logger- INFO- DI: Folder successfully crated to artifact/data_ingestion
+2025-08-21 12:01:07- src.Churn_Project.logging.logger- INFO- Data ingestion initiated
+2025-08-21 12:01:07- src.Churn_Project.logging.logger- INFO- Data loaded successfully from data_churn/Customer_Churn.csv
+2025-08-21 12:01:07- src.Churn_Project.logging.logger- INFO- Data shape before dropna: (7043, 21)
+2025-08-21 12:01:07- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion/raw
+2025-08-21 12:01:08- src.Churn_Project.logging.logger- INFO- Data saved successfully to artifact/data_ingestion/raw/data_brute.csv
+2025-08-21 12:01:08- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion completed succesfully....
+2025-08-21 12:01:08- src.Churn_Project.logging.logger- INFO- >>>> Data validation started....
+2025-08-21 12:01:08- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-21 12:01:08- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-21 12:01:08- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-21 12:01:08- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-21 12:01:08- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_validation
+2025-08-21 12:01:08- src.Churn_Project.logging.logger- INFO- DV: Folder successfully crated to artifact/data_validation
+2025-08-21 12:01:10- src.Churn_Project.logging.logger- INFO- Data validation initiated
+2025-08-21 12:01:11- src.Churn_Project.logging.logger- INFO- Data loaded successfully from artifact\data_ingestion\raw\data_brute.csv
+2025-08-21 12:01:11- src.Churn_Project.logging.logger- INFO- log params  to mlflow commpleted
+2025-08-21 12:01:11- src.Churn_Project.logging.logger- INFO- Type of all_feature: <class 'dict'>
+2025-08-21 12:01:11- src.Churn_Project.logging.logger- INFO- Values of features {'customerID': 'object', 'gender': 'object', 'SeniorCitizen': 'object', 'Partner': 'object', 'Dependents': 'object', 'tenure': 'int64', 'PhoneService': 'object', 'MultipleLines': 'object', 'InternetService': 'object', 'OnlineSecurity': 'object', 'OnlineBackup': 'object', 'DeviceProtection': 'object', 'TechSupport': 'object', 'StreamingTV': 'object', 'StreamingMovies': 'object', 'Contract': 'object', 'PaperlessBilling': 'object', 'PaymentMethod': 'object', 'MonthlyCharges': 'float64', 'TotalCharges': 'object'}
+2025-08-21 12:01:11- src.Churn_Project.logging.logger- INFO- Target column value: {'Churn': 'object'}
+2025-08-21 12:01:11- src.Churn_Project.logging.logger- INFO- log metrics to mlflow commpleted
+2025-08-21 12:03:01- src.Churn_Project.logging.logger- INFO- Data validation commpleted
+2025-08-21 12:03:02- src.Churn_Project.logging.logger- INFO- >>>> Data validation completed succesfully....
+2025-08-21 12:03:02- src.Churn_Project.logging.logger- INFO- >>>> Data transformation start....
+2025-08-21 12:03:02- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-21 12:03:02- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-21 12:03:02- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-21 12:03:02- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-21 12:03:02- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-21 12:03:02- src.Churn_Project.logging.logger- INFO- Fichier charg� avec succ�s depuis artifact\data_ingestion\raw\data_brute.csv
+2025-08-21 12:03:02- src.Churn_Project.logging.logger- INFO- Donn�es divis�es en ensembles d'entra�nement et de test
+2025-08-21 12:03:02- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-21 12:03:02- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-21 12:03:02- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-21 12:03:02- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-21 12:03:02- src.Churn_Project.logging.logger- INFO- R�pertoires cr��s avec succ�s.
+2025-08-21 12:03:02- src.Churn_Project.logging.logger- INFO- Donn�es transform�es et pr�processeur sauvegard�s avec succ�s.
+2025-08-21 12:03:02- src.Churn_Project.logging.logger- INFO- >>>> Data transformation completed succesfully....

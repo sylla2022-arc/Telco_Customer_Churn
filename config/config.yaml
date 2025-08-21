@@ -11,4 +11,13 @@ data_validation:
   data_dir : artifact/data_ingestion/raw/data_brute.csv
   status_file : artifact/data_validation/status.txt
 
+data_transformation:
+  root_dir : artifact/data_transformation 
+  data_dir : artifact/data_ingestion/raw/data_brute.csv
+  train_file_path : artifact/data_transformation/data_transformed/X_train.npy
+  test_file_path : artifact/data_transformation/data_transformed/X_test.npy
+  y_train_array : artifact/data_transformation/data_transformed/y_train_array.npy
+  y_test_array : artifact/data_transformation/data_transformed/y_test_array.npy
+  preprocessor_obj: artifact/data_transformation/preprocessor/preprocessor.pkl
+
 

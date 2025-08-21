@@ -3,6 +3,7 @@ import yaml
 from src.Churn_Project.logging.logger import logging
 import sys
 from box import ConfigBox #type:ignore
+import joblib
 
 def read_yaml_file(path_yml) -> ConfigBox :
     try:
@@ -30,4 +31,19 @@ def create_directory(path_list: list,  verbose=True):
             logging.error(f"Erreur lors de la création du répertoire {path} : {e}")
             sys.exit(1)
 
+def save_array_data(array_path, array):
+    dir_path = os.path.dirname(array_path)
+    os.makedirs(dir_path, exist_ok=True)  
+
+    joblib.dump(array, array_path)
+    print(f"Données sauvegardées dans {array_path}")
+
+
+def save_obj(file_path, obj):
+    dir_path = os.path.dirname(file_path)
+    os.makedirs(dir_path, exist_ok=True)
+
+    with open(file_path, 'wb') as file_obj:
+        joblib.dump(obj, file_obj)
+    print(f"Objet sauvegardé dans {file_path}")
 

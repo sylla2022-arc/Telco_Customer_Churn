@@ -32,3 +32,26 @@ class DataValidationConfig:
         self.status_file= status_file
         self.feature = feature
         self.target = target
+
+@dataclass
+class DataTransformationConfig:
+    """
+    Configuration for data transformation.
+    """
+    root_dir: Path 
+    data_dir: Path
+    train_file_path: Path 
+    test_file_path : Path
+    y_train_array = Path
+    y_test_array = Path
+    preprocessor_obj : Path
+
+    def __init__(self, root_dir, data_dir, train_file_path, test_file_path, 
+                 y_train_array, y_test_array, preprocessor_obj):
+        self.root_dir = root_dir
+        self.data_dir = data_dir
+        self.train_file_path= train_file_path
+        self.test_file_path = test_file_path
+        self.y_train_array = y_train_array
+        self.y_test_array = y_test_array
+        self.preprocessor_obj = preprocessor_obj

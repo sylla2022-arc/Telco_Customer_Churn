@@ -1,0 +1,26 @@
+---
+id: 7d0f12a6-e92d-4554-8e35-ea2ff6b68cd5
+---
+graph LR
+    A[Data Ingestion] --> B[Data Validation]
+    B --> C[Data Transformation]
+    C --> D[Model Training]
+
+    %% Sous-graphe vertical sans titre visible (label = " ")
+    subgraph Vertical_Flow[ ]
+      direction TB
+      E[Model Deployment]
+      F[Model Monitoring]
+      G[Retraining]
+    end
+    
+    D --> E
+    
+    B --> H[Mlflow Evidently]
+    
+    H --> I[Data Drift]
+    H --> J[Data Quality Checks]
+
+    id1(((On collecte les données, on entraîne le modèle,
+    on déploie, on surveille performance & qualité des données --Mlflow, Evidently-- 
+    Sylla)))

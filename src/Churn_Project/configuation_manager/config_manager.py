@@ -1,4 +1,4 @@
-from src.Churn_Project.entity.config_entity import DataIngestionConfig, DataValidationConfig
+from src.Churn_Project.entity.config_entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig
 from src.Churn_Project.constants import CONFIG_YAML_FILE_PATH, COL_YAML_FILE_PATH
 from src.Churn_Project.utils.utility import (read_yaml_file, create_directory)
 from pathlib import Path
@@ -51,3 +51,27 @@ class ConfigurationManager :
 
         )
         return data_validation_config
+    
+    def get_data_transformation_config(self) -> DataTransformationConfig:
+        config = self.config.data_transformation
+
+        create_directory([config.root_dir])
+
+        root_dir = config.root_dir
+        data_dir = config.data_dir
+        train_file_path = config.train_file_path
+        test_file_path = config.test_file_path
+        y_train_array = config.y_train_array
+        y_test_array = config.y_test_array
+        preprocessor_obj = config.preprocessor_obj
+
+        data_transformation_config = DataTransformationConfig(
+            root_dir = Path(root_dir),
+            data_dir = Path(data_dir),
+            train_file_path= Path(train_file_path),
+            test_file_path = Path(test_file_path),
+            y_train_array = Path(y_train_array),
+            y_test_array = Path(y_test_array),
+            preprocessor_obj = Path(preprocessor_obj)
+        )
+        return data_transformation_config
