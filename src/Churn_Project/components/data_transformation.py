@@ -31,7 +31,11 @@ class DataTransformation:
         df['TotalCharges'] = df['TotalCharges'].replace('', np.nan)
         df['TotalCharges'] = df['TotalCharges'].fillna(df['MonthlyCharges'])
         df['TotalCharges'] = df['TotalCharges'].astype(float)
-        df.drop(columns='id column', inplace=True)
+        if "customerID" in df.columns:
+            df.drop(columns='customerID', axis = 1,  inplace=True)
+        else :
+            print(f"La colonne customerID n'existe pas")
+            logging.info(f"La colonne customerID n'existe pas")
         
         return df
 

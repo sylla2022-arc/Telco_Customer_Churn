@@ -416,3 +416,1100 @@
 2025-08-22 00:05:22- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8507277245296415
 2025-08-22 00:05:22- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7622427253371186
 2025-08-22 00:05:41- src.Churn_Project.logging.logger- INFO- >>>> Model trainer completed succesfully....
+2025-08-22 16:39:20- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 16:39:20- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 16:39:20- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 16:39:20- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-22 16:39:20- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 16:39:20- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-22 16:39:20- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-22 16:39:20- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-22 16:39:20- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-22 16:39:20- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-22 16:39:20- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-22 16:39:20- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-22 16:39:20- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-22 16:39:20- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-22 16:46:51- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 10, 'learning_rate': 0.05}
+2025-08-22 16:46:51- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x0000016C01BB4850>
+2025-08-22 16:46:51- src.Churn_Project.logging.logger- ERROR- Error : Labels in y_true and y_pred should be of the same type. Got y_true=['No' 'Yes'] and y_pred=[0 1]. Make sure that the predictions provided by the classifier coincides with the true labels.
+2025-08-22 16:49:47- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 16:49:47- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 16:49:47- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 16:49:47- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-22 16:49:47- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 16:49:47- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-22 16:49:47- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-22 16:49:47- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-22 16:49:47- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-22 16:49:47- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-22 16:49:47- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-22 16:49:47- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-22 16:49:47- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-22 16:49:47- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-22 16:56:52- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 10, 'learning_rate': 0.05}
+2025-08-22 16:56:52- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001F1CC716B60>
+2025-08-22 16:56:53- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8507277245296415
+2025-08-22 16:56:53- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7622427253371186
+2025-08-22 16:56:55- src.Churn_Project.logging.logger- ERROR- Error : select_dtypes not found
+2025-08-22 17:02:59- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 17:02:59- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 17:02:59- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 17:02:59- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-22 17:02:59- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 17:02:59- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-22 17:02:59- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-22 17:02:59- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-22 17:02:59- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-22 17:02:59- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-22 17:02:59- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-22 17:02:59- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-22 17:02:59- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-22 17:02:59- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-22 17:10:23- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 10, 'learning_rate': 0.05}
+2025-08-22 17:10:23- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x00000183B1E548B0>
+2025-08-22 17:10:23- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8507277245296415
+2025-08-22 17:10:23- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7622427253371186
+2025-08-22 17:10:25- src.Churn_Project.logging.logger- ERROR- Error : Cannot compare types 'ndarray(dtype=object)' and 'float'
+2025-08-22 17:23:16- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 17:23:16- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 17:23:16- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 17:23:16- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-22 17:23:16- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 17:23:16- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-22 17:23:16- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-22 17:23:16- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-22 17:23:16- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-22 17:23:16- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-22 17:23:16- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-22 17:23:16- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-22 17:23:16- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-22 17:23:16- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-22 17:30:23- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 10, 'learning_rate': 0.05}
+2025-08-22 17:30:23- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x00000204E3E745B0>
+2025-08-22 17:30:23- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8507277245296415
+2025-08-22 17:30:23- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7622427253371186
+2025-08-22 17:30:24- src.Churn_Project.logging.logger- ERROR- Error : Cannot compare types 'ndarray(dtype=object)' and 'float'
+2025-08-22 17:34:56- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 17:34:56- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 17:34:56- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 17:34:56- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-22 17:34:56- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 17:34:56- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-22 17:34:56- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-22 17:34:56- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-22 17:34:56- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-22 17:34:56- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-22 17:34:56- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-22 17:34:56- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-22 17:34:56- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-22 17:34:56- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-22 17:42:09- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 10, 'learning_rate': 0.05}
+2025-08-22 17:42:09- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x00000236012E0610>
+2025-08-22 17:42:10- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8507277245296415
+2025-08-22 17:42:10- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7622427253371186
+2025-08-22 17:42:11- src.Churn_Project.logging.logger- ERROR- Error : '<' not supported between instances of 'float' and 'str'
+2025-08-22 17:52:28- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 17:52:28- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 17:52:28- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 17:52:28- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-22 17:52:28- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 17:52:28- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-22 17:52:28- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-22 17:52:28- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-22 17:52:28- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-22 17:52:28- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-22 17:52:28- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-22 17:52:28- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-22 17:52:28- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-22 17:52:28- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-22 18:00:58- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 10, 'learning_rate': 0.05}
+2025-08-22 18:00:58- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001DA31C37F10>
+2025-08-22 18:00:58- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8507277245296415
+2025-08-22 18:00:58- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7622427253371186
+2025-08-22 18:01:00- src.Churn_Project.logging.logger- ERROR- Error : '<' not supported between instances of 'float' and 'str'
+2025-08-22 18:03:58- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 18:03:58- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 18:03:58- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 18:03:58- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-22 18:03:58- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 18:03:58- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-22 18:03:58- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-22 18:03:58- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-22 18:03:58- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-22 18:03:58- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-22 18:03:58- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-22 18:03:58- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-22 18:03:58- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-22 18:03:58- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-22 18:12:03- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 10, 'learning_rate': 0.05}
+2025-08-22 18:12:03- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001DA31C35B40>
+2025-08-22 18:12:03- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8507277245296415
+2025-08-22 18:12:03- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7622427253371186
+2025-08-22 18:12:09- src.Churn_Project.logging.logger- ERROR- Error : '<' not supported between instances of 'float' and 'str'
+2025-08-22 18:44:46- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 18:44:46- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 18:44:46- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 18:44:46- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-22 18:44:46- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 18:44:46- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-22 18:44:46- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-22 18:44:46- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-22 18:44:46- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-22 18:44:46- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-22 18:44:46- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-22 18:44:46- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-22 18:44:46- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-22 18:44:46- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-22 18:53:47- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 10, 'learning_rate': 0.05}
+2025-08-22 18:53:47- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001DA37F542E0>
+2025-08-22 18:53:47- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8507277245296415
+2025-08-22 18:53:47- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7622427253371186
+2025-08-22 18:53:49- src.Churn_Project.logging.logger- ERROR- Error : 1
+2025-08-22 18:58:18- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 18:58:18- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 18:58:18- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 18:58:18- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-22 18:58:18- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 18:58:18- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-22 18:58:18- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-22 18:58:18- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-22 18:58:18- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-22 18:58:18- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-22 18:58:18- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-22 18:58:18- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-22 18:58:18- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-22 18:58:18- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-22 19:07:49- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 10, 'learning_rate': 0.05}
+2025-08-22 19:07:49- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001DA37F54C70>
+2025-08-22 19:07:49- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8507277245296415
+2025-08-22 19:07:49- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7622427253371186
+2025-08-22 19:07:51- src.Churn_Project.logging.logger- ERROR- Error : 'numpy.ndarray' object has no attribute 'map'
+2025-08-22 19:11:12- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 19:11:12- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 19:11:12- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 19:11:12- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-22 19:11:12- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 19:11:12- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-22 19:11:12- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-22 19:11:12- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-22 19:11:12- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-22 19:11:12- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-22 19:11:12- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-22 19:11:12- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-22 19:11:12- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-22 19:11:12- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-22 19:21:59- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 10, 'learning_rate': 0.05}
+2025-08-22 19:21:59- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001DA388F9900>
+2025-08-22 19:21:59- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8507277245296415
+2025-08-22 19:21:59- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7622427253371186
+2025-08-22 19:22:03- src.Churn_Project.logging.logger- ERROR- Error : 1
+2025-08-22 19:25:29- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 19:25:29- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 19:25:29- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 19:25:29- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-22 19:25:29- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 19:25:29- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-22 19:25:29- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-22 19:25:29- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-22 19:25:29- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-22 19:25:29- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-22 19:25:29- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-22 19:25:29- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-22 19:25:29- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-22 19:25:29- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-22 19:36:16- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 10, 'learning_rate': 0.05}
+2025-08-22 19:36:16- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001DA3A0B8850>
+2025-08-22 19:36:17- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8507277245296415
+2025-08-22 19:36:17- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7622427253371186
+2025-08-22 19:36:19- src.Churn_Project.logging.logger- ERROR- Error : 1
+2025-08-22 19:45:20- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 19:45:20- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 19:45:20- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 19:45:20- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-22 19:45:20- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 19:45:20- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-22 19:45:20- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-22 19:45:20- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-22 19:45:20- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-22 19:45:20- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-22 19:45:20- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-22 19:45:20- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-22 19:45:20- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-22 19:45:20- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-22 19:54:08- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 10, 'learning_rate': 0.05}
+2025-08-22 19:54:08- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001DA39FCEC20>
+2025-08-22 19:54:09- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8507277245296415
+2025-08-22 19:54:09- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7622427253371186
+2025-08-22 19:54:09- src.Churn_Project.logging.logger- ERROR- Erreur lors de la g√©n√©ration du rapport Evidently: 'dict' object has no attribute 'datetime'
+2025-08-22 20:09:32- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 20:09:32- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 20:09:32- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 20:09:32- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-22 20:09:32- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 20:09:32- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-22 20:09:32- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-22 20:09:32- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-22 20:09:32- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-22 20:09:32- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-22 20:09:32- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-22 20:09:33- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-22 20:09:33- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-22 20:09:33- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-22 20:17:13- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 10, 'learning_rate': 0.05}
+2025-08-22 20:17:13- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001DA3B7076A0>
+2025-08-22 20:17:13- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8507277245296415
+2025-08-22 20:17:13- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7622427253371186
+2025-08-22 20:17:13- src.Churn_Project.logging.logger- ERROR- Erreur lors de la g√©n√©ration du rapport Evidently: 'dict' object has no attribute 'datetime'
+2025-08-22 22:20:51- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 22:20:51- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 22:20:51- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 22:20:51- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-22 22:20:51- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 22:20:51- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-22 22:20:51- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-22 22:20:51- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-22 22:20:51- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-22 22:20:52- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-22 22:20:52- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-22 22:20:52- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-22 22:20:52- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-22 22:20:52- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-22 22:30:26- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 10, 'learning_rate': 0.05}
+2025-08-22 22:30:26- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001DA3A082170>
+2025-08-22 22:30:27- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8507277245296415
+2025-08-22 22:30:27- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7622427253371186
+2025-08-22 22:30:27- src.Churn_Project.logging.logger- ERROR- Error : ModelTrainer.log_evidently_model_report() got an unexpected keyword argument 'X_train'
+2025-08-22 22:32:44- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 22:32:44- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 22:32:44- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 22:32:44- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-22 22:32:44- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 22:32:44- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-22 22:32:44- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-22 22:32:44- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-22 22:32:44- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-22 22:32:44- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-22 22:32:45- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-22 22:32:45- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-22 22:32:45- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-22 22:32:45- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-22 22:40:53- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 10, 'learning_rate': 0.05}
+2025-08-22 22:40:53- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001DA3F459600>
+2025-08-22 22:40:53- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8507277245296415
+2025-08-22 22:40:53- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7622427253371186
+2025-08-22 22:40:53- src.Churn_Project.logging.logger- ERROR- Erreur lors de la g√©n√©ration du rapport Evidently: 'dict' object has no attribute 'datetime'
+2025-08-22 22:59:59- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 22:59:59- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 22:59:59- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 22:59:59- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-22 22:59:59- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 22:59:59- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-22 22:59:59- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-22 22:59:59- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-22 22:59:59- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-22 22:59:59- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-22 22:59:59- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-22 22:59:59- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-22 22:59:59- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-22 22:59:59- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-22 23:08:11- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 10, 'learning_rate': 0.05}
+2025-08-22 23:08:11- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001FD984E5CF0>
+2025-08-22 23:08:11- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8507277245296415
+2025-08-22 23:08:11- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7622427253371186
+2025-08-22 23:08:11- src.Churn_Project.logging.logger- ERROR- Erreur lors de la g√©n√©ration du rapport Evidently: 'dict' object has no attribute 'datetime'
+2025-08-22 23:08:11- src.Churn_Project.logging.logger- ERROR- Error : local variable 'evidently_report_path' referenced before assignment
+2025-08-22 23:11:20- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 23:11:20- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 23:11:20- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 23:11:20- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-22 23:11:20- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 23:11:20- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-22 23:11:20- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-22 23:11:20- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-22 23:11:20- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-22 23:11:20- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-22 23:11:20- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-22 23:11:20- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-22 23:11:20- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-22 23:11:20- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-22 23:19:59- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 10, 'learning_rate': 0.05}
+2025-08-22 23:20:00- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001FD980D8C40>
+2025-08-22 23:20:00- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8507277245296415
+2025-08-22 23:20:00- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7622427253371186
+2025-08-22 23:20:00- src.Churn_Project.logging.logger- ERROR- Erreur lors de la g√©n√©ration du rapport Evidently: 'dict' object has no attribute 'datetime'
+2025-08-22 23:20:05- src.Churn_Project.logging.logger- WARNING- Aucun rapport Evidently trouv√© √† None
+2025-08-22 23:25:50- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 23:25:50- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 23:25:50- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-22 23:25:51- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-22 23:25:51- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-22 23:25:51- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-22 23:25:51- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-22 23:25:51- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-22 23:25:51- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-22 23:25:51- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-22 23:25:51- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-22 23:25:51- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-22 23:25:51- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-22 23:25:51- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-22 23:34:44- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 10, 'learning_rate': 0.05}
+2025-08-22 23:34:44- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001FD97AAC5E0>
+2025-08-22 23:34:44- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8507277245296415
+2025-08-22 23:34:44- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7622427253371186
+2025-08-22 23:34:46- src.Churn_Project.logging.logger- ERROR- Error : 1
+2025-08-23 20:00:13- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 20:00:13- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 20:00:13- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 20:00:13- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 20:00:13- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 20:00:13- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 20:00:13- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 20:00:13- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-23 20:00:13- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-23 20:00:13- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-23 20:00:13- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-23 20:00:13- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-23 20:00:13- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-23 20:00:13- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-23 20:08:52- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 10, 'learning_rate': 0.05}
+2025-08-23 20:08:52- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x0000020DF6775810>
+2025-08-23 20:08:52- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8507277245296415
+2025-08-23 20:08:52- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7622427253371186
+2025-08-23 20:08:53- src.Churn_Project.logging.logger- ERROR- Error : 1
+2025-08-23 20:09:49- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 20:09:49- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 20:09:49- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 20:09:49- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 20:09:49- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 20:09:49- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 20:09:49- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 20:09:49- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-23 20:09:49- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-23 20:09:49- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-23 20:09:49- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-23 20:09:49- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-23 20:09:49- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-23 20:09:49- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-23 20:10:17- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 20:10:17- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 20:10:17- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 20:10:17- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 20:10:17- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 20:10:17- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 20:10:17- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 20:10:17- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-23 20:10:17- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-23 20:10:17- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-23 20:10:17- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-23 20:10:17- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-23 20:10:17- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-23 20:10:17- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-23 20:17:37- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 10, 'learning_rate': 0.05}
+2025-08-23 20:17:37- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x0000020DF69DB610>
+2025-08-23 20:17:37- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8507277245296415
+2025-08-23 20:17:37- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7622427253371186
+2025-08-23 20:17:38- src.Churn_Project.logging.logger- ERROR- Error : 1
+2025-08-23 20:24:24- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 20:24:24- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 20:24:24- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 20:24:24- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 20:24:24- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 20:24:24- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 20:24:24- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 20:24:24- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-23 20:24:24- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-23 20:24:24- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-23 20:24:24- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-23 20:24:24- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-23 20:24:24- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-23 20:24:24- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-23 20:25:13- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 128}
+2025-08-23 20:25:13- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x0000020DF6D24370>
+2025-08-23 20:25:13- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.768370607028754
+2025-08-23 20:25:13- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7579843860894251
+2025-08-23 20:25:13- src.Churn_Project.logging.logger- ERROR- Error : unknown is not supported
+2025-08-23 20:35:45- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 20:35:45- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 20:35:45- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 20:35:45- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 20:35:45- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 20:35:45- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 20:35:45- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 20:35:45- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-23 20:35:45- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-23 20:35:45- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-23 20:35:45- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-23 20:35:45- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-23 20:35:45- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-23 20:35:45- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-23 20:36:32- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 128}
+2025-08-23 20:36:32- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x0000020DF6D24EE0>
+2025-08-23 20:36:32- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.768370607028754
+2025-08-23 20:36:32- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7579843860894251
+2025-08-23 20:36:33- src.Churn_Project.logging.logger- ERROR- Error : 1
+2025-08-23 20:40:54- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 20:40:54- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 20:40:54- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 20:40:54- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 20:40:54- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 20:40:54- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 20:40:54- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 20:40:54- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-23 20:40:54- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-23 20:40:54- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-23 20:40:54- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-23 20:40:54- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-23 20:40:54- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-23 20:40:54- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-23 20:41:23- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 128}
+2025-08-23 20:41:23- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x0000020D807E8D60>
+2025-08-23 20:41:23- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.768370607028754
+2025-08-23 20:41:23- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7579843860894251
+2025-08-23 20:41:24- src.Churn_Project.logging.logger- ERROR- Error : unknown is not supported
+2025-08-23 20:46:39- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 20:46:39- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 20:46:39- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 20:46:39- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 20:46:39- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 20:46:39- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 20:46:39- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 20:46:39- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-23 20:46:39- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-23 20:46:39- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-23 20:46:39- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-23 20:46:39- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-23 20:46:39- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-23 20:46:39- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-23 20:47:29- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 128}
+2025-08-23 20:47:29- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x0000020D80923C70>
+2025-08-23 20:47:29- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.768370607028754
+2025-08-23 20:47:29- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7579843860894251
+2025-08-23 20:47:30- src.Churn_Project.logging.logger- ERROR- Error : unknown is not supported
+2025-08-23 20:53:31- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 20:53:31- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 20:53:31- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 20:53:31- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 20:53:31- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 20:53:31- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 20:53:31- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 20:53:31- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-23 20:53:31- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-23 20:53:31- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-23 20:53:31- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-23 20:53:31- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-23 20:53:31- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-23 20:53:31- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-23 20:54:09- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 128}
+2025-08-23 20:54:09- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x0000020D80B21CF0>
+2025-08-23 20:54:09- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.768370607028754
+2025-08-23 20:54:09- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7579843860894251
+2025-08-23 20:54:16- src.Churn_Project.logging.logger- ERROR- Error : 'learning_rate'
+2025-08-23 20:57:51- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 20:57:51- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 20:57:51- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 20:57:51- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 20:57:51- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 20:57:52- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 20:57:52- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 20:57:52- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-23 20:57:52- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-23 20:57:52- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-23 20:57:52- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-23 20:57:52- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-23 20:57:52- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-23 20:57:52- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-23 20:58:42- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 128}
+2025-08-23 20:58:42- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x0000020D82176650>
+2025-08-23 20:58:42- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.768370607028754
+2025-08-23 20:58:42- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7579843860894251
+2025-08-23 20:58:52- src.Churn_Project.logging.logger- ERROR- Error : 'max_depth'
+2025-08-23 20:59:30- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 20:59:30- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 20:59:30- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 20:59:30- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 20:59:30- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 20:59:30- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 20:59:30- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 20:59:30- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-23 20:59:30- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-23 20:59:30- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-23 20:59:30- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-23 20:59:30- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-23 20:59:30- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-23 20:59:30- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-23 21:00:07- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 128}
+2025-08-23 21:00:07- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x0000020D822FF6D0>
+2025-08-23 21:00:07- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.768370607028754
+2025-08-23 21:00:07- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7579843860894251
+2025-08-23 21:00:11- src.Churn_Project.logging.logger- INFO- Rapport Evidently logg√© dans MLflow depuis artifact/evidently/evidently_report.html
+2025-08-23 21:18:02- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 21:18:02- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 21:18:02- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 21:18:02- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 21:18:02- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 21:18:02- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 21:18:02- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 21:18:02- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-23 21:18:02- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-23 21:18:02- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-23 21:18:02- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-23 21:18:02- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-23 21:18:02- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-23 21:18:02- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-23 21:18:40- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 128}
+2025-08-23 21:18:40- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001FE23CC43A0>
+2025-08-23 21:18:41- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.768370607028754
+2025-08-23 21:18:41- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7579843860894251
+2025-08-23 21:18:42- src.Churn_Project.logging.logger- ERROR- Error : 'No'
+2025-08-23 21:22:43- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 21:22:43- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 21:22:43- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 21:22:43- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 21:22:43- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 21:22:43- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 21:22:43- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 21:22:43- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-23 21:22:43- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-23 21:22:43- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-23 21:22:43- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-23 21:22:43- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-23 21:22:43- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-23 21:22:43- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-23 21:23:15- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 128}
+2025-08-23 21:23:15- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001FE23919CC0>
+2025-08-23 21:23:15- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.768370607028754
+2025-08-23 21:23:15- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7579843860894251
+2025-08-23 21:23:15- src.Churn_Project.logging.logger- ERROR- Error : 1
+2025-08-23 21:36:18- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 21:36:18- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 21:36:18- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 21:36:18- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 21:36:18- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 21:36:18- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 21:36:18- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 21:36:18- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-23 21:36:18- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-23 21:36:18- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-23 21:36:18- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-23 21:36:18- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-23 21:36:18- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-23 21:36:18- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-23 21:36:58- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 128}
+2025-08-23 21:36:58- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001FE240E9FF0>
+2025-08-23 21:36:59- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.768370607028754
+2025-08-23 21:36:59- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7579843860894251
+2025-08-23 21:37:11- src.Churn_Project.logging.logger- INFO- Rapport Evidently logg√© dans MLflow depuis artifact/evidently/evidently_report.html
+2025-08-23 21:52:33- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 21:52:33- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 21:52:33- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 21:52:33- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 21:52:33- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 21:52:33- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 21:52:33- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 21:52:33- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-23 21:52:33- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-23 21:52:33- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-23 21:52:33- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-23 21:52:33- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-23 21:52:33- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-23 21:52:33- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-23 21:53:16- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 128}
+2025-08-23 21:53:16- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001FE237D8670>
+2025-08-23 21:53:17- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.768370607028754
+2025-08-23 21:53:17- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7579843860894251
+2025-08-23 21:53:17- src.Churn_Project.logging.logger- ERROR- Error : cannot import name 'ClassificationPreset' from 'evidently.metrics' (c:\Users\sylla\anaconda3\envs\churn_env\lib\site-packages\evidently\metrics\__init__.py)
+2025-08-23 21:55:21- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 21:55:21- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 21:55:21- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 21:55:22- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 21:55:22- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 21:55:22- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 21:55:22- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 21:55:22- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-23 21:55:22- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-23 21:55:22- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-23 21:55:22- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-23 21:55:22- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-23 21:55:22- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-23 21:55:22- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-23 21:55:49- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 128}
+2025-08-23 21:55:49- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001FE27EDEFE0>
+2025-08-23 21:55:49- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.768370607028754
+2025-08-23 21:55:49- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7579843860894251
+2025-08-23 21:55:54- src.Churn_Project.logging.logger- INFO- Rapport Evidently logg√© dans MLflow depuis artifact/evidently/evidently_report.html
+2025-08-23 22:04:42- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 22:04:42- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 22:04:42- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 22:04:42- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 22:04:42- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 22:04:42- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 22:04:42- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 22:04:42- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-23 22:04:42- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-23 22:04:42- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-23 22:04:42- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-23 22:04:42- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-23 22:04:42- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-23 22:04:42- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-23 22:12:19- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 10, 'learning_rate': 0.05}
+2025-08-23 22:12:19- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001AA31E46350>
+2025-08-23 22:12:20- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8507277245296415
+2025-08-23 22:12:20- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7622427253371186
+2025-08-23 22:12:25- src.Churn_Project.logging.logger- INFO- Rapport Evidently logg√© dans MLflow depuis artifact/evidently/evidently_report.html
+2025-08-23 22:13:22- src.Churn_Project.logging.logger- INFO- Test log: main.py started
+2025-08-23 22:13:22- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion started....
+2025-08-23 22:13:22- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 22:13:22- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 22:13:22- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 22:13:22- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 22:13:22- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion
+2025-08-23 22:13:22- src.Churn_Project.logging.logger- INFO- DI: Folder successfully crated to artifact/data_ingestion
+2025-08-23 22:13:22- src.Churn_Project.logging.logger- INFO- Data ingestion initiated
+2025-08-23 22:13:22- src.Churn_Project.logging.logger- INFO- Data loaded successfully from data_churn/Customer_Churn.csv
+2025-08-23 22:13:22- src.Churn_Project.logging.logger- INFO- Data shape before dropna: (7043, 21)
+2025-08-23 22:13:22- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion/raw
+2025-08-23 22:13:22- src.Churn_Project.logging.logger- INFO- Data saved successfully to artifact/data_ingestion/raw/data_brute.csv
+2025-08-23 22:13:22- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion completed succesfully....
+2025-08-23 22:13:22- src.Churn_Project.logging.logger- INFO- >>>> Data validation started....
+2025-08-23 22:13:22- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 22:13:22- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 22:13:22- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 22:13:22- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 22:13:22- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_validation
+2025-08-23 22:13:22- src.Churn_Project.logging.logger- INFO- DV: Folder successfully crated to artifact/data_validation
+2025-08-23 22:13:24- src.Churn_Project.logging.logger- INFO- Data validation initiated
+2025-08-23 22:13:25- src.Churn_Project.logging.logger- INFO- Data loaded successfully from artifact\data_ingestion\raw\data_brute.csv
+2025-08-23 22:13:25- src.Churn_Project.logging.logger- INFO- log params  to mlflow commpleted
+2025-08-23 22:13:25- src.Churn_Project.logging.logger- INFO- Type of all_feature: <class 'dict'>
+2025-08-23 22:13:25- src.Churn_Project.logging.logger- INFO- Values of features {'customerID': 'object', 'gender': 'object', 'SeniorCitizen': 'object', 'Partner': 'object', 'Dependents': 'object', 'tenure': 'int64', 'PhoneService': 'object', 'MultipleLines': 'object', 'InternetService': 'object', 'OnlineSecurity': 'object', 'OnlineBackup': 'object', 'DeviceProtection': 'object', 'TechSupport': 'object', 'StreamingTV': 'object', 'StreamingMovies': 'object', 'Contract': 'object', 'PaperlessBilling': 'object', 'PaymentMethod': 'object', 'MonthlyCharges': 'float64', 'TotalCharges': 'object'}
+2025-08-23 22:13:25- src.Churn_Project.logging.logger- INFO- Target column value: {'Churn': 'object'}
+2025-08-23 22:13:25- src.Churn_Project.logging.logger- INFO- log metrics to mlflow commpleted
+2025-08-23 22:14:27- src.Churn_Project.logging.logger- INFO- Data validation commpleted
+2025-08-23 22:14:27- src.Churn_Project.logging.logger- INFO- >>>> Data validation completed succesfully....
+2025-08-23 22:14:27- src.Churn_Project.logging.logger- INFO- >>>> Data transformation start....
+2025-08-23 22:14:27- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 22:14:27- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 22:14:27- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 22:14:27- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 22:14:27- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 22:14:27- src.Churn_Project.logging.logger- INFO- Fichier chargÈ avec succËs depuis artifact\data_ingestion\raw\data_brute.csv
+2025-08-23 22:14:27- src.Churn_Project.logging.logger- ERROR- Erreur lors de la transformation des donnÈes : "['id column'] not found in axis"
+2025-08-23 22:14:27- src.Churn_Project.logging.logger- ERROR- Impossible de poursuivre "['id column'] not found in axis"
+2025-08-23 22:17:25- src.Churn_Project.logging.logger- INFO- Test log: main.py started
+2025-08-23 22:17:25- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion started....
+2025-08-23 22:17:25- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 22:17:25- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 22:17:25- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 22:17:25- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 22:17:25- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion
+2025-08-23 22:17:25- src.Churn_Project.logging.logger- INFO- DI: Folder successfully crated to artifact/data_ingestion
+2025-08-23 22:17:25- src.Churn_Project.logging.logger- INFO- Data ingestion initiated
+2025-08-23 22:17:25- src.Churn_Project.logging.logger- INFO- Data loaded successfully from data_churn/Customer_Churn.csv
+2025-08-23 22:17:25- src.Churn_Project.logging.logger- INFO- Data shape before dropna: (7043, 21)
+2025-08-23 22:17:25- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion/raw
+2025-08-23 22:17:25- src.Churn_Project.logging.logger- INFO- Data saved successfully to artifact/data_ingestion/raw/data_brute.csv
+2025-08-23 22:17:25- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion completed succesfully....
+2025-08-23 22:17:25- src.Churn_Project.logging.logger- INFO- >>>> Data validation started....
+2025-08-23 22:17:25- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 22:17:25- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 22:17:25- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 22:17:25- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 22:17:25- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_validation
+2025-08-23 22:17:25- src.Churn_Project.logging.logger- INFO- DV: Folder successfully crated to artifact/data_validation
+2025-08-23 22:17:28- src.Churn_Project.logging.logger- INFO- Data validation initiated
+2025-08-23 22:17:28- src.Churn_Project.logging.logger- INFO- Data loaded successfully from artifact\data_ingestion\raw\data_brute.csv
+2025-08-23 22:17:29- src.Churn_Project.logging.logger- INFO- log params  to mlflow commpleted
+2025-08-23 22:17:29- src.Churn_Project.logging.logger- INFO- Type of all_feature: <class 'dict'>
+2025-08-23 22:17:29- src.Churn_Project.logging.logger- INFO- Values of features {'customerID': 'object', 'gender': 'object', 'SeniorCitizen': 'object', 'Partner': 'object', 'Dependents': 'object', 'tenure': 'int64', 'PhoneService': 'object', 'MultipleLines': 'object', 'InternetService': 'object', 'OnlineSecurity': 'object', 'OnlineBackup': 'object', 'DeviceProtection': 'object', 'TechSupport': 'object', 'StreamingTV': 'object', 'StreamingMovies': 'object', 'Contract': 'object', 'PaperlessBilling': 'object', 'PaymentMethod': 'object', 'MonthlyCharges': 'float64', 'TotalCharges': 'object'}
+2025-08-23 22:17:29- src.Churn_Project.logging.logger- INFO- Target column value: {'Churn': 'object'}
+2025-08-23 22:17:29- src.Churn_Project.logging.logger- INFO- log metrics to mlflow commpleted
+2025-08-23 22:18:30- src.Churn_Project.logging.logger- INFO- Data validation commpleted
+2025-08-23 22:18:30- src.Churn_Project.logging.logger- INFO- >>>> Data validation completed succesfully....
+2025-08-23 22:18:30- src.Churn_Project.logging.logger- INFO- >>>> Data transformation start....
+2025-08-23 22:18:30- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 22:18:30- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 22:18:30- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 22:18:30- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 22:18:30- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 22:18:30- src.Churn_Project.logging.logger- INFO- Fichier chargÈ avec succËs depuis artifact\data_ingestion\raw\data_brute.csv
+2025-08-23 22:18:30- src.Churn_Project.logging.logger- ERROR- Erreur lors de la transformation des donnÈes : "['id column'] not found in axis"
+2025-08-23 22:18:30- src.Churn_Project.logging.logger- ERROR- Impossible de poursuivre "['id column'] not found in axis"
+2025-08-23 22:22:56- src.Churn_Project.logging.logger- INFO- Test log: main.py started
+2025-08-23 22:22:56- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion started....
+2025-08-23 22:22:56- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 22:22:56- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 22:22:56- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 22:22:56- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 22:22:56- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion
+2025-08-23 22:22:56- src.Churn_Project.logging.logger- INFO- DI: Folder successfully crated to artifact/data_ingestion
+2025-08-23 22:22:56- src.Churn_Project.logging.logger- INFO- Data ingestion initiated
+2025-08-23 22:22:56- src.Churn_Project.logging.logger- INFO- Data loaded successfully from data_churn/Customer_Churn.csv
+2025-08-23 22:22:56- src.Churn_Project.logging.logger- INFO- Data shape before dropna: (7043, 21)
+2025-08-23 22:22:56- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion/raw
+2025-08-23 22:22:56- src.Churn_Project.logging.logger- INFO- Data saved successfully to artifact/data_ingestion/raw/data_brute.csv
+2025-08-23 22:22:56- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion completed succesfully....
+2025-08-23 22:22:56- src.Churn_Project.logging.logger- INFO- >>>> Data validation started....
+2025-08-23 22:22:56- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 22:22:56- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 22:22:56- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 22:22:56- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 22:22:56- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_validation
+2025-08-23 22:22:56- src.Churn_Project.logging.logger- INFO- DV: Folder successfully crated to artifact/data_validation
+2025-08-23 22:22:59- src.Churn_Project.logging.logger- INFO- Data validation initiated
+2025-08-23 22:22:59- src.Churn_Project.logging.logger- INFO- Data loaded successfully from artifact\data_ingestion\raw\data_brute.csv
+2025-08-23 22:22:59- src.Churn_Project.logging.logger- INFO- log params  to mlflow commpleted
+2025-08-23 22:22:59- src.Churn_Project.logging.logger- INFO- Type of all_feature: <class 'dict'>
+2025-08-23 22:22:59- src.Churn_Project.logging.logger- INFO- Values of features {'customerID': 'object', 'gender': 'object', 'SeniorCitizen': 'object', 'Partner': 'object', 'Dependents': 'object', 'tenure': 'int64', 'PhoneService': 'object', 'MultipleLines': 'object', 'InternetService': 'object', 'OnlineSecurity': 'object', 'OnlineBackup': 'object', 'DeviceProtection': 'object', 'TechSupport': 'object', 'StreamingTV': 'object', 'StreamingMovies': 'object', 'Contract': 'object', 'PaperlessBilling': 'object', 'PaymentMethod': 'object', 'MonthlyCharges': 'float64', 'TotalCharges': 'object'}
+2025-08-23 22:22:59- src.Churn_Project.logging.logger- INFO- Target column value: {'Churn': 'object'}
+2025-08-23 22:23:00- src.Churn_Project.logging.logger- INFO- log metrics to mlflow commpleted
+2025-08-23 22:24:04- src.Churn_Project.logging.logger- INFO- Data validation commpleted
+2025-08-23 22:24:04- src.Churn_Project.logging.logger- INFO- >>>> Data validation completed succesfully....
+2025-08-23 22:24:04- src.Churn_Project.logging.logger- INFO- >>>> Data transformation start....
+2025-08-23 22:24:04- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 22:24:04- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 22:24:04- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 22:24:04- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 22:24:04- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 22:24:04- src.Churn_Project.logging.logger- INFO- Fichier chargÈ avec succËs depuis artifact\data_ingestion\raw\data_brute.csv
+2025-08-23 22:24:04- src.Churn_Project.logging.logger- INFO- DonnÈes divisÈes en ensembles d'entraÓnement et de test
+2025-08-23 22:24:04- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 22:24:04- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 22:24:04- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 22:24:04- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 22:24:04- src.Churn_Project.logging.logger- INFO- RÈpertoires crÈÈs avec succËs.
+2025-08-23 22:24:05- src.Churn_Project.logging.logger- INFO- DonnÈes transformÈes et prÈprocesseur sauvegardÈs avec succËs.
+2025-08-23 22:24:05- src.Churn_Project.logging.logger- INFO- >>>> Data transformation completed succesfully....
+2025-08-23 22:24:05- src.Churn_Project.logging.logger- INFO- >>>> Model trainer start....
+2025-08-23 22:24:05- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 22:24:05- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 22:24:05- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 22:24:05- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 22:24:05- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-23 22:24:05- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-23 22:24:05- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-23 22:24:05- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-23 22:24:05- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-23 22:24:05- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-23 22:24:05- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-23 22:25:53- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 10, 'learning_rate': 0.05}
+2025-08-23 22:25:53- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x00000261E5CBC910>
+2025-08-23 22:25:53- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.9188853390131345
+2025-08-23 22:25:53- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7679205110007097
+2025-08-23 22:25:55- src.Churn_Project.logging.logger- INFO- Rapport Evidently loggÈ dans MLflow depuis artifact/evidently/evidently_report.html
+2025-08-23 22:26:10- src.Churn_Project.logging.logger- INFO- >>>> Model trainer completed succesfully....
+2025-08-23 22:40:10- src.Churn_Project.logging.logger- INFO- Test log: main.py started
+2025-08-23 22:40:10- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion started....
+2025-08-23 22:40:10- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 22:40:10- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 22:40:10- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 22:40:10- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 22:40:10- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion
+2025-08-23 22:40:10- src.Churn_Project.logging.logger- INFO- DI: Folder successfully crated to artifact/data_ingestion
+2025-08-23 22:40:10- src.Churn_Project.logging.logger- INFO- Data ingestion initiated
+2025-08-23 22:40:10- src.Churn_Project.logging.logger- INFO- Data loaded successfully from data_churn/Customer_Churn.csv
+2025-08-23 22:40:10- src.Churn_Project.logging.logger- INFO- Data shape before dropna: (7043, 21)
+2025-08-23 22:40:10- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion/raw
+2025-08-23 22:40:10- src.Churn_Project.logging.logger- INFO- Data saved successfully to artifact/data_ingestion/raw/data_brute.csv
+2025-08-23 22:40:10- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion completed succesfully....
+2025-08-23 22:40:10- src.Churn_Project.logging.logger- INFO- >>>> Data validation started....
+2025-08-23 22:40:10- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 22:40:10- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 22:40:10- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 22:40:10- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 22:40:10- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_validation
+2025-08-23 22:40:10- src.Churn_Project.logging.logger- INFO- DV: Folder successfully crated to artifact/data_validation
+2025-08-23 22:40:13- src.Churn_Project.logging.logger- INFO- Data validation initiated
+2025-08-23 22:40:13- src.Churn_Project.logging.logger- INFO- Data loaded successfully from artifact\data_ingestion\raw\data_brute.csv
+2025-08-23 22:40:13- src.Churn_Project.logging.logger- INFO- log params  to mlflow commpleted
+2025-08-23 22:40:13- src.Churn_Project.logging.logger- INFO- Type of all_feature: <class 'dict'>
+2025-08-23 22:40:13- src.Churn_Project.logging.logger- INFO- Values of features {'customerID': 'object', 'gender': 'object', 'SeniorCitizen': 'object', 'Partner': 'object', 'Dependents': 'object', 'tenure': 'int64', 'PhoneService': 'object', 'MultipleLines': 'object', 'InternetService': 'object', 'OnlineSecurity': 'object', 'OnlineBackup': 'object', 'DeviceProtection': 'object', 'TechSupport': 'object', 'StreamingTV': 'object', 'StreamingMovies': 'object', 'Contract': 'object', 'PaperlessBilling': 'object', 'PaymentMethod': 'object', 'MonthlyCharges': 'float64', 'TotalCharges': 'object'}
+2025-08-23 22:40:13- src.Churn_Project.logging.logger- INFO- Target column value: {'Churn': 'object'}
+2025-08-23 22:40:13- src.Churn_Project.logging.logger- INFO- log metrics to mlflow commpleted
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- Data validation commpleted
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- >>>> Data validation completed succesfully....
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- >>>> Data transformation start....
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- Fichier chargÈ avec succËs depuis artifact\data_ingestion\raw\data_brute.csv
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- DonnÈes divisÈes en ensembles d'entraÓnement et de test
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- RÈpertoires crÈÈs avec succËs.
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- DonnÈes transformÈes et prÈprocesseur sauvegardÈs avec succËs.
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- >>>> Data transformation completed succesfully....
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- >>>> Model trainer start....
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-23 22:41:17- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-23 22:42:04- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 8, 'learning_rate': 0.01}
+2025-08-23 22:42:04- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001CF1CC70C70>
+2025-08-23 22:42:04- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8175363862264821
+2025-08-23 22:42:04- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.8005677785663591
+2025-08-23 22:42:11- src.Churn_Project.logging.logger- INFO- Rapport Evidently loggÈ dans MLflow depuis artifact/evidently/evidently_report.html
+2025-08-23 22:42:28- src.Churn_Project.logging.logger- INFO- >>>> Model trainer completed succesfully....
+2025-08-23 23:15:07- src.Churn_Project.logging.logger- INFO- Test log: main.py started
+2025-08-23 23:15:07- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion started....
+2025-08-23 23:15:07- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 23:15:07- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 23:15:07- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 23:15:07- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 23:15:07- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion
+2025-08-23 23:15:07- src.Churn_Project.logging.logger- INFO- DI: Folder successfully crated to artifact/data_ingestion
+2025-08-23 23:15:07- src.Churn_Project.logging.logger- INFO- Data ingestion initiated
+2025-08-23 23:15:07- src.Churn_Project.logging.logger- INFO- Data loaded successfully from data_churn/Customer_Churn.csv
+2025-08-23 23:15:07- src.Churn_Project.logging.logger- INFO- Data shape before dropna: (7043, 21)
+2025-08-23 23:15:07- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion/raw
+2025-08-23 23:15:07- src.Churn_Project.logging.logger- INFO- Data saved successfully to artifact/data_ingestion/raw/data_brute.csv
+2025-08-23 23:15:07- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion completed succesfully....
+2025-08-23 23:15:07- src.Churn_Project.logging.logger- INFO- >>>> Data validation started....
+2025-08-23 23:15:07- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 23:15:07- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 23:15:07- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 23:15:07- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 23:15:07- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_validation
+2025-08-23 23:15:07- src.Churn_Project.logging.logger- INFO- DV: Folder successfully crated to artifact/data_validation
+2025-08-23 23:15:09- src.Churn_Project.logging.logger- INFO- Data validation initiated
+2025-08-23 23:15:10- src.Churn_Project.logging.logger- INFO- Data loaded successfully from artifact\data_ingestion\raw\data_brute.csv
+2025-08-23 23:15:10- src.Churn_Project.logging.logger- INFO- log params  to mlflow commpleted
+2025-08-23 23:15:10- src.Churn_Project.logging.logger- INFO- Type of all_feature: <class 'dict'>
+2025-08-23 23:15:10- src.Churn_Project.logging.logger- INFO- Values of features {'customerID': 'object', 'gender': 'object', 'SeniorCitizen': 'object', 'Partner': 'object', 'Dependents': 'object', 'tenure': 'int64', 'PhoneService': 'object', 'MultipleLines': 'object', 'InternetService': 'object', 'OnlineSecurity': 'object', 'OnlineBackup': 'object', 'DeviceProtection': 'object', 'TechSupport': 'object', 'StreamingTV': 'object', 'StreamingMovies': 'object', 'Contract': 'object', 'PaperlessBilling': 'object', 'PaymentMethod': 'object', 'MonthlyCharges': 'float64', 'TotalCharges': 'object'}
+2025-08-23 23:15:10- src.Churn_Project.logging.logger- INFO- Target column value: {'Churn': 'object'}
+2025-08-23 23:15:10- src.Churn_Project.logging.logger- INFO- log metrics to mlflow commpleted
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- Data validation commpleted
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- >>>> Data validation completed succesfully....
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- >>>> Data transformation start....
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- Fichier chargÈ avec succËs depuis artifact\data_ingestion\raw\data_brute.csv
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- DonnÈes divisÈes en ensembles d'entraÓnement et de test
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- RÈpertoires crÈÈs avec succËs.
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- DonnÈes transformÈes et prÈprocesseur sauvegardÈs avec succËs.
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- >>>> Data transformation completed succesfully....
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- >>>> Model trainer start....
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-23 23:16:12- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-23 23:16:53- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 8, 'learning_rate': 0.01}
+2025-08-23 23:16:53- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x0000022E43185870>
+2025-08-23 23:16:54- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8175363862264821
+2025-08-23 23:16:54- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.8005677785663591
+2025-08-23 23:16:57- src.Churn_Project.logging.logger- INFO- Rapport Evidently loggÈ dans MLflow depuis artifact/evidently/evidently_report.html
+2025-08-23 23:17:21- src.Churn_Project.logging.logger- INFO- >>>> Model trainer completed succesfully....
+2025-08-23 23:18:22- src.Churn_Project.logging.logger- INFO- Test log: main.py started
+2025-08-23 23:18:22- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion started....
+2025-08-23 23:18:23- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 23:18:23- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 23:18:23- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 23:18:23- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 23:18:23- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion
+2025-08-23 23:18:23- src.Churn_Project.logging.logger- INFO- DI: Folder successfully crated to artifact/data_ingestion
+2025-08-23 23:18:23- src.Churn_Project.logging.logger- INFO- Data ingestion initiated
+2025-08-23 23:18:23- src.Churn_Project.logging.logger- INFO- Data loaded successfully from data_churn/Customer_Churn.csv
+2025-08-23 23:18:23- src.Churn_Project.logging.logger- INFO- Data shape before dropna: (7043, 21)
+2025-08-23 23:18:23- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion/raw
+2025-08-23 23:18:23- src.Churn_Project.logging.logger- INFO- Data saved successfully to artifact/data_ingestion/raw/data_brute.csv
+2025-08-23 23:18:23- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion completed succesfully....
+2025-08-23 23:18:23- src.Churn_Project.logging.logger- INFO- >>>> Data validation started....
+2025-08-23 23:18:23- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 23:18:23- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 23:18:23- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 23:18:23- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 23:18:23- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_validation
+2025-08-23 23:18:23- src.Churn_Project.logging.logger- INFO- DV: Folder successfully crated to artifact/data_validation
+2025-08-23 23:18:25- src.Churn_Project.logging.logger- INFO- Data validation initiated
+2025-08-23 23:18:26- src.Churn_Project.logging.logger- INFO- Data loaded successfully from artifact\data_ingestion\raw\data_brute.csv
+2025-08-23 23:18:26- src.Churn_Project.logging.logger- INFO- log params  to mlflow commpleted
+2025-08-23 23:18:26- src.Churn_Project.logging.logger- INFO- Type of all_feature: <class 'dict'>
+2025-08-23 23:18:26- src.Churn_Project.logging.logger- INFO- Values of features {'customerID': 'object', 'gender': 'object', 'SeniorCitizen': 'object', 'Partner': 'object', 'Dependents': 'object', 'tenure': 'int64', 'PhoneService': 'object', 'MultipleLines': 'object', 'InternetService': 'object', 'OnlineSecurity': 'object', 'OnlineBackup': 'object', 'DeviceProtection': 'object', 'TechSupport': 'object', 'StreamingTV': 'object', 'StreamingMovies': 'object', 'Contract': 'object', 'PaperlessBilling': 'object', 'PaymentMethod': 'object', 'MonthlyCharges': 'float64', 'TotalCharges': 'object'}
+2025-08-23 23:18:26- src.Churn_Project.logging.logger- INFO- Target column value: {'Churn': 'object'}
+2025-08-23 23:18:26- src.Churn_Project.logging.logger- INFO- log metrics to mlflow commpleted
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- Data validation commpleted
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- >>>> Data validation completed succesfully....
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- >>>> Data transformation start....
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- Fichier chargÈ avec succËs depuis artifact\data_ingestion\raw\data_brute.csv
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- DonnÈes divisÈes en ensembles d'entraÓnement et de test
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- RÈpertoires crÈÈs avec succËs.
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- DonnÈes transformÈes et prÈprocesseur sauvegardÈs avec succËs.
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- >>>> Data transformation completed succesfully....
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- >>>> Model trainer start....
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-23 23:19:31- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-23 23:20:14- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 8, 'learning_rate': 0.01}
+2025-08-23 23:20:14- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x0000015108976E00>
+2025-08-23 23:20:14- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8175363862264821
+2025-08-23 23:20:14- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.8005677785663591
+2025-08-23 23:20:15- src.Churn_Project.logging.logger- INFO- Rapport Evidently loggÈ dans MLflow depuis artifact/evidently/evidently_report.html
+2025-08-23 23:20:28- src.Churn_Project.logging.logger- INFO- >>>> Model trainer completed succesfully....
+2025-08-23 23:21:58- src.Churn_Project.logging.logger- INFO- Test log: main.py started
+2025-08-23 23:21:58- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion started....
+2025-08-23 23:21:59- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 23:21:59- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 23:21:59- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 23:21:59- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 23:21:59- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion
+2025-08-23 23:21:59- src.Churn_Project.logging.logger- INFO- DI: Folder successfully crated to artifact/data_ingestion
+2025-08-23 23:21:59- src.Churn_Project.logging.logger- INFO- Data ingestion initiated
+2025-08-23 23:21:59- src.Churn_Project.logging.logger- INFO- Data loaded successfully from data_churn/Customer_Churn.csv
+2025-08-23 23:21:59- src.Churn_Project.logging.logger- INFO- Data shape before dropna: (7043, 21)
+2025-08-23 23:21:59- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion/raw
+2025-08-23 23:21:59- src.Churn_Project.logging.logger- INFO- Data saved successfully to artifact/data_ingestion/raw/data_brute.csv
+2025-08-23 23:21:59- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion completed succesfully....
+2025-08-23 23:21:59- src.Churn_Project.logging.logger- INFO- >>>> Data validation started....
+2025-08-23 23:21:59- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 23:21:59- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 23:21:59- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 23:21:59- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 23:21:59- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_validation
+2025-08-23 23:21:59- src.Churn_Project.logging.logger- INFO- DV: Folder successfully crated to artifact/data_validation
+2025-08-23 23:22:01- src.Churn_Project.logging.logger- INFO- Data validation initiated
+2025-08-23 23:22:01- src.Churn_Project.logging.logger- INFO- Data loaded successfully from artifact\data_ingestion\raw\data_brute.csv
+2025-08-23 23:22:01- src.Churn_Project.logging.logger- INFO- log params  to mlflow commpleted
+2025-08-23 23:22:01- src.Churn_Project.logging.logger- INFO- Type of all_feature: <class 'dict'>
+2025-08-23 23:22:01- src.Churn_Project.logging.logger- INFO- Values of features {'customerID': 'object', 'gender': 'object', 'SeniorCitizen': 'object', 'Partner': 'object', 'Dependents': 'object', 'tenure': 'int64', 'PhoneService': 'object', 'MultipleLines': 'object', 'InternetService': 'object', 'OnlineSecurity': 'object', 'OnlineBackup': 'object', 'DeviceProtection': 'object', 'TechSupport': 'object', 'StreamingTV': 'object', 'StreamingMovies': 'object', 'Contract': 'object', 'PaperlessBilling': 'object', 'PaymentMethod': 'object', 'MonthlyCharges': 'float64', 'TotalCharges': 'object'}
+2025-08-23 23:22:01- src.Churn_Project.logging.logger- INFO- Target column value: {'Churn': 'object'}
+2025-08-23 23:22:02- src.Churn_Project.logging.logger- INFO- log metrics to mlflow commpleted
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- Data validation commpleted
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- >>>> Data validation completed succesfully....
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- >>>> Data transformation start....
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- Fichier chargÈ avec succËs depuis artifact\data_ingestion\raw\data_brute.csv
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- DonnÈes divisÈes en ensembles d'entraÓnement et de test
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- RÈpertoires crÈÈs avec succËs.
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- DonnÈes transformÈes et prÈprocesseur sauvegardÈs avec succËs.
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- >>>> Data transformation completed succesfully....
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- >>>> Model trainer start....
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-23 23:23:05- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-23 23:23:49- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 8, 'learning_rate': 0.1}
+2025-08-23 23:23:49- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001C493032410>
+2025-08-23 23:23:49- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.9410720624778133
+2025-08-23 23:23:49- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.7785663591199432
+2025-08-23 23:23:50- src.Churn_Project.logging.logger- INFO- Rapport Evidently loggÈ dans MLflow depuis artifact/evidently/evidently_report.html
+2025-08-23 23:24:06- src.Churn_Project.logging.logger- INFO- >>>> Model trainer completed succesfully....
+2025-08-23 23:24:56- src.Churn_Project.logging.logger- INFO- Test log: main.py started
+2025-08-23 23:24:56- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion started....
+2025-08-23 23:24:56- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 23:24:56- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 23:24:56- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 23:24:56- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 23:24:56- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion
+2025-08-23 23:24:56- src.Churn_Project.logging.logger- INFO- DI: Folder successfully crated to artifact/data_ingestion
+2025-08-23 23:24:56- src.Churn_Project.logging.logger- INFO- Data ingestion initiated
+2025-08-23 23:24:56- src.Churn_Project.logging.logger- INFO- Data loaded successfully from data_churn/Customer_Churn.csv
+2025-08-23 23:24:56- src.Churn_Project.logging.logger- INFO- Data shape before dropna: (7043, 21)
+2025-08-23 23:24:56- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion/raw
+2025-08-23 23:24:57- src.Churn_Project.logging.logger- INFO- Data saved successfully to artifact/data_ingestion/raw/data_brute.csv
+2025-08-23 23:24:57- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion completed succesfully....
+2025-08-23 23:24:57- src.Churn_Project.logging.logger- INFO- >>>> Data validation started....
+2025-08-23 23:24:57- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 23:24:57- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 23:24:57- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 23:24:57- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 23:24:57- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_validation
+2025-08-23 23:24:57- src.Churn_Project.logging.logger- INFO- DV: Folder successfully crated to artifact/data_validation
+2025-08-23 23:24:59- src.Churn_Project.logging.logger- INFO- Data validation initiated
+2025-08-23 23:24:59- src.Churn_Project.logging.logger- INFO- Data loaded successfully from artifact\data_ingestion\raw\data_brute.csv
+2025-08-23 23:24:59- src.Churn_Project.logging.logger- INFO- log params  to mlflow commpleted
+2025-08-23 23:24:59- src.Churn_Project.logging.logger- INFO- Type of all_feature: <class 'dict'>
+2025-08-23 23:24:59- src.Churn_Project.logging.logger- INFO- Values of features {'customerID': 'object', 'gender': 'object', 'SeniorCitizen': 'object', 'Partner': 'object', 'Dependents': 'object', 'tenure': 'int64', 'PhoneService': 'object', 'MultipleLines': 'object', 'InternetService': 'object', 'OnlineSecurity': 'object', 'OnlineBackup': 'object', 'DeviceProtection': 'object', 'TechSupport': 'object', 'StreamingTV': 'object', 'StreamingMovies': 'object', 'Contract': 'object', 'PaperlessBilling': 'object', 'PaymentMethod': 'object', 'MonthlyCharges': 'float64', 'TotalCharges': 'object'}
+2025-08-23 23:24:59- src.Churn_Project.logging.logger- INFO- Target column value: {'Churn': 'object'}
+2025-08-23 23:24:59- src.Churn_Project.logging.logger- INFO- log metrics to mlflow commpleted
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- Data validation commpleted
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- >>>> Data validation completed succesfully....
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- >>>> Data transformation start....
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- Fichier chargÈ avec succËs depuis artifact\data_ingestion\raw\data_brute.csv
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- DonnÈes divisÈes en ensembles d'entraÓnement et de test
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- RÈpertoires crÈÈs avec succËs.
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- DonnÈes transformÈes et prÈprocesseur sauvegardÈs avec succËs.
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- >>>> Data transformation completed succesfully....
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- >>>> Model trainer start....
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-23 23:26:01- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-23 23:26:43- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 8, 'learning_rate': 0.01}
+2025-08-23 23:26:43- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x000001F07D296260>
+2025-08-23 23:26:43- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8175363862264821
+2025-08-23 23:26:43- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.8005677785663591
+2025-08-23 23:26:46- src.Churn_Project.logging.logger- INFO- Rapport Evidently loggÈ dans MLflow depuis artifact/evidently/evidently_report.html
+2025-08-23 23:27:15- src.Churn_Project.logging.logger- INFO- >>>> Model trainer completed succesfully....

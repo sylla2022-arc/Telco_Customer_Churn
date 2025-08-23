@@ -76,7 +76,7 @@ def load_obj(file_path):
 def hyperparameter_tuning(X_train, y_train, model_name, param_grid,
                           use_random_search=False, n_iter=10  ):
     if model_name == "CatBoostClassifier":
-        model = CatBoostClassifier(verbose=100, random_state=42, class_weights = [1, 3])
+        model = CatBoostClassifier(verbose=100, random_state=42, class_weights = [1, 2])
 
     else:
         raise ValueError(f"Unknown model name: {model_name}")
