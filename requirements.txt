@@ -11,3 +11,6 @@ ipykernel==6.28.0
 flask==2.3.3
 python-box==6.1.0
 catboost==1.2.2
+fastapi>=0.112.0,<0.113.0
+uvicorn
+python-multipart==0.0.9

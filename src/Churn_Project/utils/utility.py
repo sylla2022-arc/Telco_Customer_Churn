@@ -63,14 +63,26 @@ def save_obj(file_path, obj):
 
 def load_obj(file_path):
     if not os.path.exists(file_path):
-        logging.error(f"Le fichier yaml {file_path} n'existe pas.")
-        raise FileNotFoundError(f"Le fichier yaml {file_path} n'existe pas.")
+        logging.error(f"Le fichier {file_path} n'existe pas.")
+        raise FileNotFoundError(f"Le fichier {file_path} n'existe pas.")
+
+    with open(file_path, 'rb') as file_obj:
+        obj = joblib.load(file_obj)
+        logging.info(f"Objet chargé avec succès depuis {file_obj}")
+        print(f"Objet chargé avec succès depuis {file_obj}")
+        return obj
+
+def load_obj(file_path):
+    if not os.path.exists(file_path):
+        logging.error(f"Le fichier {file_path} n'existe pas.")
+        raise FileNotFoundError(f"Le fichier {file_path} n'existe pas.")
 
     with open(file_path, 'rb') as file_obj:
         obj = joblib.load(file_obj)
         logging.info(f"Numpy array sucessfully loaded from {file_obj}")
         print(f"Numpy array sucessfully loaded from {file_obj}")
         return obj
+    
 
 
 def hyperparameter_tuning(X_train, y_train, model_name, param_grid,

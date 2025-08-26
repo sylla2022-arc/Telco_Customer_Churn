@@ -1513,3 +1513,201 @@
 2025-08-23 23:26:43- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.8005677785663591
 2025-08-23 23:26:46- src.Churn_Project.logging.logger- INFO- Rapport Evidently loggé dans MLflow depuis artifact/evidently/evidently_report.html
 2025-08-23 23:27:15- src.Churn_Project.logging.logger- INFO- >>>> Model trainer completed succesfully....
+2025-08-25 15:35:40- src.Churn_Project.logging.logger- INFO- Main pipeline initialized
+2025-08-25 15:35:40- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion started....
+2025-08-25 15:35:40- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-25 15:35:40- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-25 15:35:40- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-25 15:35:40- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-25 15:35:40- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion
+2025-08-25 15:35:40- src.Churn_Project.logging.logger- INFO- DI: Folder successfully crated to artifact/data_ingestion
+2025-08-25 15:35:40- src.Churn_Project.logging.logger- INFO- Data ingestion initiated
+2025-08-25 15:35:40- src.Churn_Project.logging.logger- INFO- Data loaded successfully from data_churn/Customer_Churn.csv
+2025-08-25 15:35:40- src.Churn_Project.logging.logger- INFO- Data shape before dropna: (7043, 21)
+2025-08-25 15:35:40- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion/raw
+2025-08-25 15:35:41- src.Churn_Project.logging.logger- INFO- Data saved successfully to artifact/data_ingestion/raw/data_brute.csv
+2025-08-25 15:35:41- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion completed succesfully....
+2025-08-25 15:35:41- src.Churn_Project.logging.logger- INFO- >>>> Data validation started....
+2025-08-25 15:35:41- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-25 15:35:41- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-25 15:35:41- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-25 15:35:41- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-25 15:35:41- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_validation
+2025-08-25 15:35:41- src.Churn_Project.logging.logger- INFO- DV: Folder successfully crated to artifact/data_validation
+2025-08-25 15:35:43- src.Churn_Project.logging.logger- INFO- Data validation initiated
+2025-08-25 15:35:45- src.Churn_Project.logging.logger- INFO- Data loaded successfully from artifact\data_ingestion\raw\data_brute.csv
+2025-08-25 15:35:45- src.Churn_Project.logging.logger- INFO- log params  to mlflow commpleted
+2025-08-25 15:35:45- src.Churn_Project.logging.logger- INFO- Type of all_feature: <class 'dict'>
+2025-08-25 15:35:45- src.Churn_Project.logging.logger- INFO- Values of features {'customerID': 'object', 'gender': 'object', 'SeniorCitizen': 'object', 'Partner': 'object', 'Dependents': 'object', 'tenure': 'int64', 'PhoneService': 'object', 'MultipleLines': 'object', 'InternetService': 'object', 'OnlineSecurity': 'object', 'OnlineBackup': 'object', 'DeviceProtection': 'object', 'TechSupport': 'object', 'StreamingTV': 'object', 'StreamingMovies': 'object', 'Contract': 'object', 'PaperlessBilling': 'object', 'PaymentMethod': 'object', 'MonthlyCharges': 'float64', 'TotalCharges': 'object'}
+2025-08-25 15:35:45- src.Churn_Project.logging.logger- INFO- Target column value: {'Churn': 'object'}
+2025-08-25 15:35:45- src.Churn_Project.logging.logger- INFO- log metrics to mlflow commpleted
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- Data validation commpleted
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- >>>> Data validation completed succesfully....
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- >>>> Data transformation start....
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- Fichier chargé avec succès depuis artifact\data_ingestion\raw\data_brute.csv
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- Données divisées en ensembles d'entraînement et de test
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- Répertoires créés avec succès.
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- Données transformées et préprocesseur sauvegardés avec succès.
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- >>>> Data transformation completed succesfully....
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- >>>> Model trainer start....
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-25 15:37:08- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-25 15:38:00- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 8, 'learning_rate': 0.01}
+2025-08-25 15:38:00- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x00000182572B4130>
+2025-08-25 15:38:01- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8175363862264821
+2025-08-25 15:38:01- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.8005677785663591
+2025-08-25 15:38:02- src.Churn_Project.logging.logger- INFO- Rapport Evidently loggé dans MLflow depuis artifact/evidently/evidently_report.html
+2025-08-25 15:38:17- src.Churn_Project.logging.logger- INFO- >>>> Model trainer completed succesfully....
+2025-08-25 15:38:48- src.Churn_Project.logging.logger- INFO- Main pipeline initialized
+2025-08-25 15:38:48- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion started....
+2025-08-25 15:38:48- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-25 15:38:48- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-25 15:38:48- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-25 15:38:48- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-25 15:38:48- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion
+2025-08-25 15:38:48- src.Churn_Project.logging.logger- INFO- DI: Folder successfully crated to artifact/data_ingestion
+2025-08-25 15:38:48- src.Churn_Project.logging.logger- INFO- Data ingestion initiated
+2025-08-25 15:38:49- src.Churn_Project.logging.logger- INFO- Data loaded successfully from data_churn/Customer_Churn.csv
+2025-08-25 15:38:49- src.Churn_Project.logging.logger- INFO- Data shape before dropna: (7043, 21)
+2025-08-25 15:38:49- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion/raw
+2025-08-25 15:38:49- src.Churn_Project.logging.logger- INFO- Data saved successfully to artifact/data_ingestion/raw/data_brute.csv
+2025-08-25 15:38:49- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion completed succesfully....
+2025-08-25 15:38:49- src.Churn_Project.logging.logger- INFO- >>>> Data validation started....
+2025-08-25 15:38:49- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-25 15:38:49- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-25 15:38:49- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-25 15:38:49- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-25 15:38:49- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_validation
+2025-08-25 15:38:49- src.Churn_Project.logging.logger- INFO- DV: Folder successfully crated to artifact/data_validation
+2025-08-25 15:38:49- src.Churn_Project.logging.logger- INFO- Data validation initiated
+2025-08-25 15:38:49- src.Churn_Project.logging.logger- INFO- Data loaded successfully from artifact\data_ingestion\raw\data_brute.csv
+2025-08-25 15:38:49- src.Churn_Project.logging.logger- INFO- log params  to mlflow commpleted
+2025-08-25 15:38:49- src.Churn_Project.logging.logger- INFO- Type of all_feature: <class 'dict'>
+2025-08-25 15:38:49- src.Churn_Project.logging.logger- INFO- Values of features {'customerID': 'object', 'gender': 'object', 'SeniorCitizen': 'object', 'Partner': 'object', 'Dependents': 'object', 'tenure': 'int64', 'PhoneService': 'object', 'MultipleLines': 'object', 'InternetService': 'object', 'OnlineSecurity': 'object', 'OnlineBackup': 'object', 'DeviceProtection': 'object', 'TechSupport': 'object', 'StreamingTV': 'object', 'StreamingMovies': 'object', 'Contract': 'object', 'PaperlessBilling': 'object', 'PaymentMethod': 'object', 'MonthlyCharges': 'float64', 'TotalCharges': 'object'}
+2025-08-25 15:38:49- src.Churn_Project.logging.logger- INFO- Target column value: {'Churn': 'object'}
+2025-08-25 15:38:50- src.Churn_Project.logging.logger- INFO- log metrics to mlflow commpleted
+2025-08-25 15:40:29- src.Churn_Project.logging.logger- INFO- Data validation commpleted
+2025-08-25 15:40:29- src.Churn_Project.logging.logger- INFO- >>>> Data validation completed succesfully....
+2025-08-25 15:40:29- src.Churn_Project.logging.logger- INFO- >>>> Data transformation start....
+2025-08-25 15:40:29- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-25 15:40:29- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-25 15:40:29- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-25 15:40:29- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-25 15:40:29- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-25 15:40:30- src.Churn_Project.logging.logger- INFO- Fichier chargé avec succès depuis artifact\data_ingestion\raw\data_brute.csv
+2025-08-25 15:40:30- src.Churn_Project.logging.logger- INFO- Données divisées en ensembles d'entraînement et de test
+2025-08-25 15:40:30- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-25 15:40:30- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-25 15:40:30- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-25 15:40:30- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-25 15:40:30- src.Churn_Project.logging.logger- INFO- Répertoires créés avec succès.
+2025-08-25 15:40:30- src.Churn_Project.logging.logger- INFO- Données transformées et préprocesseur sauvegardés avec succès.
+2025-08-25 15:40:30- src.Churn_Project.logging.logger- INFO- >>>> Data transformation completed succesfully....
+2025-08-25 15:40:30- src.Churn_Project.logging.logger- INFO- >>>> Model trainer start....
+2025-08-25 15:40:30- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-25 15:40:30- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-25 15:40:30- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-25 15:40:30- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-25 15:40:30- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-25 15:40:30- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-25 15:40:30- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-25 15:40:30- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-25 15:40:30- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-25 15:40:30- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-25 15:40:30- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-25 15:40:30- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-25 15:41:14- src.Churn_Project.logging.logger- INFO- Best params: {'n_estimators': 256, 'max_depth': 8, 'learning_rate': 0.01}
+2025-08-25 15:41:14- src.Churn_Project.logging.logger- INFO- Best estimator: <catboost.core.CatBoostClassifier object at 0x0000018258E45540>
+2025-08-25 15:41:14- src.Churn_Project.logging.logger- INFO- Accuracy score train set: 0.8175363862264821
+2025-08-25 15:41:14- src.Churn_Project.logging.logger- INFO- Accuracy score test set: 0.8005677785663591
+2025-08-25 15:41:16- src.Churn_Project.logging.logger- INFO- Rapport Evidently loggé dans MLflow depuis artifact/evidently/evidently_report.html
+2025-08-25 15:41:41- src.Churn_Project.logging.logger- INFO- >>>> Model trainer completed succesfully....
+2025-08-25 16:14:21- fastapi- ERROR- Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-08-25 16:16:25- fastapi- ERROR- Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-08-25 16:19:37- src.Churn_Project.logging.logger- INFO- Data preview:
+   customerID  gender  SeniorCitizen Partner  ...     PaymentMethod  MonthlyCharges TotalCharges Churn
+0  7590-VHVEG  Female              0     Yes  ...  Electronic check           29.85        29.85    No
+1  5575-GNVDE    Male              0      No  ...      Mailed check           56.95       1889.5    No
+2  3668-QPYBK    Male              0      No  ...      Mailed check           53.85       108.15   Yes
+
+[3 rows x 21 columns]
+2025-08-25 16:19:37- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/data_transformation/preprocessor/preprocessor.pkl'>
+2025-08-25 16:19:37- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/model_trainer/save_model/model.pkl'>
+2025-08-25 16:19:37- src.Churn_Project.logging.logger- ERROR- Erreur lors de la prédiction: Cannot use median strategy with non-numeric data:
+could not convert string to float: ' '
+2025-08-25 16:24:41- src.Churn_Project.logging.logger- INFO- Data preview:
+   customerID  gender  SeniorCitizen Partner  ...     PaymentMethod  MonthlyCharges TotalCharges Churn
+0  7590-VHVEG  Female              0     Yes  ...  Electronic check           29.85        29.85    No
+1  5575-GNVDE    Male              0      No  ...      Mailed check           56.95       1889.5    No
+2  3668-QPYBK    Male              0      No  ...      Mailed check           53.85       108.15   Yes
+
+[3 rows x 21 columns]
+2025-08-25 16:24:41- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/data_transformation/preprocessor/preprocessor.pkl'>
+2025-08-25 16:24:41- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/model_trainer/save_model/model.pkl'>
+2025-08-25 16:24:41- src.Churn_Project.logging.logger- ERROR- Erreur lors de la prédiction: Cannot use median strategy with non-numeric data:
+could not convert string to float: ' '
+2025-08-25 16:25:39- src.Churn_Project.logging.logger- INFO- Data preview:
+   customerID  gender  SeniorCitizen Partner  ...     PaymentMethod  MonthlyCharges TotalCharges Churn
+0  7590-VHVEG  Female              0     Yes  ...  Electronic check           29.85        29.85    No
+1  5575-GNVDE    Male              0      No  ...      Mailed check           56.95       1889.5    No
+2  3668-QPYBK    Male              0      No  ...      Mailed check           53.85       108.15   Yes
+
+[3 rows x 21 columns]
+2025-08-25 16:25:39- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/data_transformation/preprocessor/preprocessor.pkl'>
+2025-08-25 16:25:39- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/model_trainer/save_model/model.pkl'>
+2025-08-25 16:25:40- src.Churn_Project.logging.logger- ERROR- Erreur lors de la prédiction: Cannot save file into a non-existent directory: 'artifact\predict_data'
+2025-08-25 16:27:09- src.Churn_Project.logging.logger- INFO- Data preview:
+   customerID  gender  SeniorCitizen Partner  ...     PaymentMethod  MonthlyCharges TotalCharges Churn
+0  7590-VHVEG  Female              0     Yes  ...  Electronic check           29.85        29.85    No
+1  5575-GNVDE    Male              0      No  ...      Mailed check           56.95       1889.5    No
+2  3668-QPYBK    Male              0      No  ...      Mailed check           53.85       108.15   Yes
+
+[3 rows x 21 columns]
+2025-08-25 16:27:09- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/data_transformation/preprocessor/preprocessor.pkl'>
+2025-08-25 16:27:09- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/model_trainer/save_model/model.pkl'>
+2025-08-25 16:27:10- src.Churn_Project.logging.logger- ERROR- Erreur lors de la prédiction: Cannot save file into a non-existent directory: 'artifact\predict_data'
+2025-08-25 16:28:08- src.Churn_Project.logging.logger- INFO- Data preview:
+   customerID  gender  SeniorCitizen Partner  ...     PaymentMethod  MonthlyCharges TotalCharges Churn
+0  7590-VHVEG  Female              0     Yes  ...  Electronic check           29.85        29.85    No
+1  5575-GNVDE    Male              0      No  ...      Mailed check           56.95       1889.5    No
+2  3668-QPYBK    Male              0      No  ...      Mailed check           53.85       108.15   Yes
+
+[3 rows x 21 columns]
+2025-08-25 16:28:08- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/data_transformation/preprocessor/preprocessor.pkl'>
+2025-08-25 16:28:08- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/model_trainer/save_model/model.pkl'>
+2025-08-25 16:35:02- src.Churn_Project.logging.logger- INFO- Data preview:
+   customerID  gender  SeniorCitizen Partner  ...     PaymentMethod  MonthlyCharges TotalCharges Churn
+0  7590-VHVEG  Female              0     Yes  ...  Electronic check           29.85        29.85    No
+1  5575-GNVDE    Male              0      No  ...      Mailed check           56.95       1889.5    No
+2  3668-QPYBK    Male              0      No  ...      Mailed check           53.85       108.15   Yes
+
+[3 rows x 21 columns]
+2025-08-25 16:35:02- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/data_transformation/preprocessor/preprocessor.pkl'>
+2025-08-25 16:35:02- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/model_trainer/save_model/model.pkl'>
