@@ -1711,3 +1711,160 @@ could not convert string to float: ' '
 [3 rows x 21 columns]
 2025-08-25 16:35:02- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/data_transformation/preprocessor/preprocessor.pkl'>
 2025-08-25 16:35:02- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/model_trainer/save_model/model.pkl'>
+2025-08-26 18:58:46- src.Churn_Project.logging.logger- INFO- La colonne customerID n'existe pas dans ce fichier uploadé
+2025-08-26 19:06:38- src.Churn_Project.logging.logger- INFO- La colonne customerID n'existe pas dans ce fichier uploadé
+2025-08-26 19:17:20- src.Churn_Project.logging.logger- INFO- Main pipeline initialized
+2025-08-26 19:17:20- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion started....
+2025-08-26 19:17:20- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-26 19:17:20- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-26 19:17:20- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-26 19:17:20- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-26 19:17:20- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion
+2025-08-26 19:17:20- src.Churn_Project.logging.logger- INFO- DI: Folder successfully crated to artifact/data_ingestion
+2025-08-26 19:17:20- src.Churn_Project.logging.logger- INFO- Data ingestion initiated
+2025-08-26 19:17:20- src.Churn_Project.logging.logger- INFO- Data loaded successfully from data_churn/Customer_Churn.csv
+2025-08-26 19:17:20- src.Churn_Project.logging.logger- INFO- Data shape before dropna: (7043, 21)
+2025-08-26 19:17:20- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_ingestion/raw
+2025-08-26 19:17:20- src.Churn_Project.logging.logger- INFO- Data saved successfully to artifact/data_ingestion/raw/data_brute.csv
+2025-08-26 19:17:20- src.Churn_Project.logging.logger- INFO- >>>> Data ingestion completed succesfully....
+2025-08-26 19:17:20- src.Churn_Project.logging.logger- INFO- >>>> Data validation started....
+2025-08-26 19:17:20- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-26 19:17:20- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-26 19:17:20- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-26 19:17:20- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-26 19:17:20- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_validation
+2025-08-26 19:17:20- src.Churn_Project.logging.logger- INFO- DV: Folder successfully crated to artifact/data_validation
+2025-08-26 19:17:23- src.Churn_Project.logging.logger- INFO- Data validation initiated
+2025-08-26 19:17:24- src.Churn_Project.logging.logger- INFO- Data loaded successfully from artifact\data_ingestion\raw\data_brute.csv
+2025-08-26 19:17:24- src.Churn_Project.logging.logger- INFO- log params  to mlflow commpleted
+2025-08-26 19:17:24- src.Churn_Project.logging.logger- INFO- Type of all_feature: <class 'dict'>
+2025-08-26 19:17:24- src.Churn_Project.logging.logger- INFO- Values of features {'customerID': 'object', 'gender': 'object', 'SeniorCitizen': 'object', 'Partner': 'object', 'Dependents': 'object', 'tenure': 'int64', 'PhoneService': 'object', 'MultipleLines': 'object', 'InternetService': 'object', 'OnlineSecurity': 'object', 'OnlineBackup': 'object', 'DeviceProtection': 'object', 'TechSupport': 'object', 'StreamingTV': 'object', 'StreamingMovies': 'object', 'Contract': 'object', 'PaperlessBilling': 'object', 'PaymentMethod': 'object', 'MonthlyCharges': 'float64', 'TotalCharges': 'object'}
+2025-08-26 19:17:24- src.Churn_Project.logging.logger- INFO- Target column value: {'Churn': 'object'}
+2025-08-26 19:17:24- src.Churn_Project.logging.logger- INFO- log metrics to mlflow commpleted
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- Data validation commpleted
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- >>>> Data validation completed succesfully....
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- >>>> Data transformation start....
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- Fichier chargé avec succès depuis artifact\data_ingestion\raw\data_brute.csv
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- Données divisées en ensembles d'entraînement et de test
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact\data_transformation\data_transformed
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- Répertoires créés avec succès.
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- Données transformées et préprocesseur sauvegardés avec succès.
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- >>>> Data transformation completed succesfully....
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- >>>> Model trainer start....
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from config\config.yaml
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from Colums_yaml\cols.yaml
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- Folder successfully crated to artifact
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/data_transformation
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- Directory successfully created at artifact/model_trainer
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- Model initiation start ...
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_train.npy
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\X_test.npy
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_train_array.npy
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from artifact\data_transformation\data_transformed\y_test_array.npy
+2025-08-26 19:19:22- src.Churn_Project.logging.logger- INFO- yaml file successfully loaded from param\params.yaml
+2025-08-26 19:20:24- src.Churn_Project.logging.logger- INFO- La colonne customerID n'existe pas dans ce fichier uploadé
+2025-08-26 19:27:45- src.Churn_Project.logging.logger- INFO- La colonne customerID n'existe pas dans ce fichier uploadé
+2025-08-26 19:27:45- root- WARNING- Column Churn_Prediction have different types in reference float64 and current object. Returning type from reference
+2025-08-26 19:27:45- root- WARNING- Column Churn_Prediction have different types in reference float64 and current object. Returning type from reference
+2025-08-26 19:27:45- root- WARNING- Column Churn_Prediction have different types in reference float64 and current object. Returning type from reference
+2025-08-26 19:27:45- root- WARNING- Column Churn_Prediction have different types in reference float64 and current object. Returning type from reference
+2025-08-26 19:29:24- src.Churn_Project.logging.logger- INFO- La colonne customerID n'existe pas dans ce fichier uploadé
+2025-08-26 19:40:28- src.Churn_Project.logging.logger- ERROR- Monitoring error: Prediction column (Churn_Prediction) is partially present in data
+2025-08-26 19:41:07- src.Churn_Project.logging.logger- ERROR- Monitoring error: Prediction column (Churn_Prediction) is partially present in data
+2025-08-26 19:41:47- src.Churn_Project.logging.logger- ERROR- Monitoring error: Prediction column (Churn_Prediction) is partially present in data
+2025-08-26 19:44:23- src.Churn_Project.logging.logger- INFO- La colonne customerID n'existe pas dans ce fichier uploadé
+2025-08-26 19:44:26- src.Churn_Project.logging.logger- ERROR- Monitoring error: invalid literal for int() with base 10: 'YesNoYesNoYesYesYesNoYesNoNoNoNoYesYesNoNoNoNoYesYesNoNoNoNoNoYesYesNoNoNoYesNoNoYesNoYesNoYesYesNoNoNoNoNoYesYesYesNoNoYesYesNoYesNoYesNoNoNoNoYesNoNoNoYesYesNoNoNoNoYesNoNoNoNoNoNoNoNoNoYesNoYesNoN
+2025-08-26 19:48:49- src.Churn_Project.logging.logger- INFO- La colonne customerID n'existe pas dans ce fichier uploadé
+2025-08-26 20:58:24- src.Churn_Project.logging.logger- INFO- La colonne customerID n'existe pas dans ce fichier uploadé
+2025-08-26 21:31:33- src.Churn_Project.logging.logger- INFO- La colonne customerID n'existe pas dans ce fichier uploadé
+2025-08-26 21:31:37- src.Churn_Project.logging.logger- ERROR- Erreur monitoring complet: 'drift_score'
+2025-08-26 21:48:23- src.Churn_Project.logging.logger- INFO- La colonne customerID n'existe pas dans ce fichier uploadé
+2025-08-26 21:48:27- src.Churn_Project.logging.logger- ERROR- Drift monitoring error: list index out of range
+2025-08-26 21:51:19- src.Churn_Project.logging.logger- INFO- La colonne customerID n'existe pas dans ce fichier uploadé
+2025-08-26 21:51:22- src.Churn_Project.logging.logger- ERROR- Drift monitoring error: list index out of range
+2025-08-26 21:52:23- src.Churn_Project.logging.logger- INFO- La colonne customerID n'existe pas dans ce fichier uploadé
+2025-08-26 21:56:56- src.Churn_Project.logging.logger- INFO- La colonne customerID n'existe pas dans ce fichier uploadé
+2025-08-26 22:10:20- src.Churn_Project.logging.logger- INFO- La colonne customerID n'existe pas dans ce fichier uploadé
+2025-08-26 22:17:21- root- WARNING- Column TotalCharges have different types in reference object and current float64. Returning type from reference
+2025-08-26 22:17:21- root- WARNING- Column TotalCharges have different types in reference object and current float64. Returning type from reference
+2025-08-26 22:19:15- src.Churn_Project.logging.logger- INFO- Data preview:
+   customerID  gender  SeniorCitizen Partner  ...     PaymentMethod  MonthlyCharges TotalCharges Churn
+0  7590-VHVEG  Female              0     Yes  ...  Electronic check           29.85        29.85    No
+1  5575-GNVDE    Male              0      No  ...      Mailed check           56.95      1889.50    No
+2  3668-QPYBK    Male              0      No  ...      Mailed check           53.85       108.15   Yes
+
+[3 rows x 21 columns]
+2025-08-26 22:19:16- src.Churn_Project.logging.logger- INFO- Cible détectée dans le fichier uploadé \u2192 monitoring de performance possible.
+2025-08-26 22:19:16- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/data_transformation/preprocessor/preprocessor.pkl'>
+2025-08-26 22:19:16- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/model_trainer/save_model/model.pkl'>
+2025-08-26 22:19:36- root- WARNING- Column TotalCharges have different types in reference object and current float64. Returning type from reference
+2025-08-26 22:19:36- root- WARNING- Column TotalCharges have different types in reference object and current float64. Returning type from reference
+2025-08-27 22:37:02- src.Churn_Project.logging.logger- INFO- Data preview:
+   customerID  gender  SeniorCitizen Partner  ...              PaymentMethod  MonthlyCharges TotalCharges Churn
+0  1552-TKMXS  Female              0     Yes  ...    Credit card (automatic)           20.35       869.90    No
+1  4896-CPRPF    Male              0     Yes  ...  Bank transfer (automatic)           25.45       809.25    No
+2  8292-FRFZQ  Female              0      No  ...  Bank transfer (automatic)           41.15      1700.90    No
+
+[3 rows x 21 columns]
+2025-08-27 22:37:02- src.Churn_Project.logging.logger- INFO- Cible détectée dans le fichier uploadé \u2192 monitoring de performance possible.
+2025-08-27 22:37:02- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/data_transformation/preprocessor/preprocessor.pkl'>
+2025-08-27 22:37:02- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/model_trainer/save_model/model.pkl'>
+2025-08-27 22:39:55- src.Churn_Project.logging.logger- INFO- Data preview:
+   customerID  gender  SeniorCitizen Partner  ...              PaymentMethod  MonthlyCharges TotalCharges Churn
+0  7508-SMHXL  Female              1      No  ...    Credit card (automatic)            89.0       1288.3    No
+1  3097-FQTVJ  Female              0      No  ...               Mailed check            20.0        810.3    No
+2  8815-LMFLX    Male              0     Yes  ...  Bank transfer (automatic)            25.4       546.85    No
+
+[3 rows x 21 columns]
+2025-08-27 22:39:55- src.Churn_Project.logging.logger- INFO- Cible détectée dans le fichier uploadé \u2192 monitoring de performance possible.
+2025-08-27 22:39:55- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/data_transformation/preprocessor/preprocessor.pkl'>
+2025-08-27 22:39:55- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/model_trainer/save_model/model.pkl'>
+2025-08-28 22:23:51- src.Churn_Project.logging.logger- INFO- Data preview:
+   customerID  gender  SeniorCitizen Partner  ...              PaymentMethod  MonthlyCharges TotalCharges Churn
+0  6481-ESCNL  Female              0      No  ...  Bank transfer (automatic)          100.55      2878.75    No
+1  7632-MNYOY    Male              1      No  ...    Credit card (automatic)          110.90      7432.05   Yes
+2  9774-NRNAU    Male              1     Yes  ...  Bank transfer (automatic)           84.80      2309.55    No
+
+[3 rows x 21 columns]
+2025-08-28 22:23:51- src.Churn_Project.logging.logger- INFO- Cible détectée dans le fichier uploadé \u2192 monitoring de performance possible.
+2025-08-28 22:23:51- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/data_transformation/preprocessor/preprocessor.pkl'>
+2025-08-28 22:23:51- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/model_trainer/save_model/model.pkl'>
+2025-08-28 22:37:04- root- WARNING- Column TotalCharges have different types in reference object and current float64. Returning type from reference
+2025-08-28 22:37:04- root- WARNING- Column TotalCharges have different types in reference object and current float64. Returning type from reference
+2025-08-28 22:39:31- root- WARNING- Column TotalCharges have different types in reference object and current float64. Returning type from reference
+2025-08-28 22:39:31- root- WARNING- Column TotalCharges have different types in reference object and current float64. Returning type from reference
+2025-08-28 22:41:53- root- WARNING- Column TotalCharges have different types in reference object and current float64. Returning type from reference
+2025-08-28 22:41:53- root- WARNING- Column TotalCharges have different types in reference object and current float64. Returning type from reference
+2025-08-28 22:46:27- root- WARNING- Column TotalCharges have different types in reference object and current float64. Returning type from reference
+2025-08-28 22:46:27- root- WARNING- Column TotalCharges have different types in reference object and current float64. Returning type from reference
+2025-08-28 22:47:49- root- WARNING- Column TotalCharges have different types in reference object and current float64. Returning type from reference
+2025-08-28 22:47:49- root- WARNING- Column TotalCharges have different types in reference object and current float64. Returning type from reference
+2025-08-31 15:12:47- src.Churn_Project.logging.logger- INFO- Data preview:
+   customerID  gender  SeniorCitizen Partner  ...              PaymentMethod  MonthlyCharges TotalCharges Churn
+0  9298-WGMRW  Female              0     Yes  ...  Bank transfer (automatic)          115.50      8312.75    No
+1  9575-IWCAZ    Male              0     Yes  ...               Mailed check           25.10       171.00    No
+2  8634-MPHTR    Male              1     Yes  ...           Electronic check          100.05      4871.05   Yes
+
+[3 rows x 21 columns]
+2025-08-31 15:12:47- src.Churn_Project.logging.logger- INFO- Cible détectée dans le fichier uploadé \u2192 monitoring de performance possible.
+2025-08-31 15:12:47- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/data_transformation/preprocessor/preprocessor.pkl'>
+2025-08-31 15:12:47- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/model_trainer/save_model/model.pkl'>
+2025-08-31 19:08:39- src.Churn_Project.logging.logger- INFO- Data preview:
+   customerID  gender  SeniorCitizen Partner  ...     PaymentMethod  MonthlyCharges TotalCharges Churn
+0  7590-VHVEG  Female              0     Yes  ...  Electronic check           29.85        29.85    No
+1  5575-GNVDE    Male              0      No  ...      Mailed check           56.95       1889.5    No
+2  3668-QPYBK    Male              0      No  ...      Mailed check           53.85       108.15   Yes
+
+[3 rows x 21 columns]
+2025-08-31 19:08:40- src.Churn_Project.logging.logger- INFO- Cible détectée dans le fichier uploadé \u2192 monitoring de performance possible.
+2025-08-31 19:08:40- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/data_transformation/preprocessor/preprocessor.pkl'>
+2025-08-31 19:08:40- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/model_trainer/save_model/model.pkl'>
