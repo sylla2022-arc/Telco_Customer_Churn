@@ -1,17 +1,23 @@
 FROM python:3.11-slim-bullseye
 
 WORKDIR /app
-COPY artifact/ artifact/
-COPY . /app
 
+# INSTALLER LES OUTILS DE COMPILATION EN PREMIER
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-        ca-certificates \
-        curl \
-        gnupg \
-        awscli && \
-    rm -rf /var/lib/apt/lists/*
+        gcc \
+        g++ \
+        build-essential \
+        python3-dev \
+        awscli \
+        && rm -rf /var/lib/apt/lists/*
 
+# Copier les fichiers de l'application
+COPY artifact/ artifact/
+COPY data_churn/ data_churn/
+COPY . /app
+
+# Installer les dépendances Python
 RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 8000
