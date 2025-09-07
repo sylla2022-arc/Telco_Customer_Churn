@@ -7,6 +7,10 @@ import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
+API_URL_PREDICT  = "http://18.235.62.74:8000/predict"
+URL_TARGET_drift = "http://18.235.62.74:8000/target-drift"
+API_URL_PREDICT_SAMPLE_DRIFT = "http://18.235.62.74:8000/predict-sample-drift"
+URL_PERFORMANCE_METRICS= "http://18.235.62.74:8000/performance-metrics"
 
 # Échantillon de données
 df_brute = pd.read_csv('data_churn/Customer_Churn.csv')
@@ -67,9 +71,8 @@ def main_app():
             if st.button("🚀 Lancer la prédiction", use_container_width=True):
                 if st.session_state.sample is not None:
                     try:
-                        API_URL = "http://localhost:8000/predict"
                         files = {"file": st.session_state.sample.to_csv(index=False).encode("utf-8")}
-                        response = requests.post(API_URL, files=files)
+                        response = requests.post(API_URL_PREDICT, files=files)
                         
                         if response.status_code == 200:
                             response_data = response.json()
@@ -98,9 +101,9 @@ def main_app():
         if st.button("Générer des prédictions GLOBALES", use_container_width=True):
             try:
                 df_brute = pd.read_csv('data_churn/Customer_Churn.csv')
-                API_URL = "http://localhost:8000/predict"
+                #API_URL_ = "http://localhost:8000/predict"
                 files = {"file": df_brute.to_csv(index=False).encode("utf-8")}
-                response = requests.post(API_URL, files=files)
+                response = requests.post(API_URL_PREDICT, files=files)
                 
                 if response.status_code == 200:
                     st.success("✅ Prédictions GLOBALES générées avec succès!")
@@ -155,9 +158,7 @@ def main_app():
         # Initialiser response à None
         response = None
         response_perf = None
-        URL_TARGET_drift = "http://localhost:8000/target-drift"
-        API_URL_PREDICT_SAMPLE_DRIFT = "http://localhost:8000/predict-sample-drift"
-        URL_PERFORMANCE_METRICS= "http://localhost:8000/performance-metrics"
+        
         try:
             if monitoring_type == "Monitoring Global":
                 # Monitoring global - données complètes
@@ -178,7 +179,7 @@ def main_app():
 
         except Exception as e:
             st.error(f"Erreur lors du monitoring: {str(e)}")
-            st.info("Vérifiez que l'API FastAPI est en cours d'exécution sur http://localhost:8000")
+            st.info("Vérifiez que l'API FastAPI est en cours d'exécution sur http://18.235.62.74:8000")
         
     
                 

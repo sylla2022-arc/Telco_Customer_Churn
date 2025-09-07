@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from fastapi.templating import Jinja2Templates
-from fastapi import FastAPI, File, UploadFile, HTTPException
+from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import Request, UploadFile, File
 import uvicorn 
@@ -18,11 +18,11 @@ import io
 from typing import List
 
 from evidently.report import Report
-from evidently.metric_preset import DataDriftPreset, TargetDriftPreset, ClassificationPreset
+from evidently.metric_preset import DataDriftPreset, TargetDriftPreset
 from evidently import ColumnMapping
 from sklearn.metrics import (
     accuracy_score, precision_score, recall_score, f1_score,
-    confusion_matrix, classification_report
+    confusion_matrix
 )
 
 templates = Jinja2Templates(directory="./templates")
@@ -174,7 +174,7 @@ async def target_drift():
         except ValueError as e:
             return {"error": str(e)}
 
-        # Convertir Yes/No en 1/0
+        # Convertir Yes/No en 1/0 sinon on risque d'avoir des erreur avc evidently
         reference_data['Churn_numeric'] = reference_data['Churn'].map({'Yes': 1, 'No': 0})
         current_data['Churn_numeric'] = current_data['Churn'].map({'Yes': 1, 'No': 0})
 
@@ -191,7 +191,7 @@ async def target_drift():
         exclude_cols = set(column_mapping.numerical_features) | {column_mapping.target, 'Churn'} | {'customerID'}
         column_mapping.categorical_features = [col for col in reference_data.columns if col not in exclude_cols]
         
-        # Générer le rapport
+
         target_drift_report = generate_drift_report(reference_data, current_data, column_mapping)
         
         # Sauvegarder le rapport HTML
@@ -199,7 +199,7 @@ async def target_drift():
         os.makedirs(os.path.dirname(monitoring_dir), exist_ok=True)
         target_drift_report.save_html(monitoring_dir)
             
-        # Extraire les métriques
+
         drift_detected, drift_score, churn_distribution = get_drift_metrics(target_drift_report, current_data=current_data)
 
         #recup les VRAIES données des features importantes
@@ -349,4 +349,4 @@ async def performance_metrics():
         return {"error": str(e)}
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8000)

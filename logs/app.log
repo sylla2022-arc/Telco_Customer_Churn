@@ -2407,3 +2407,75 @@ Name: Churn_numeric, dtype: int64
 1    1869
 Name: Churn_numeric, dtype: int64
 2025-09-02 00:16:01- src.Churn_Project.logging.logger- INFO- La colonne customerID n'existe pas dans ce fichier uploadé
+2025-09-02 00:16:33- src.Churn_Project.logging.logger- INFO- Fichier sélectionné: global_predictions_1756764233.csv, Taille: 7043 lignes
+2025-09-02 00:16:43- src.Churn_Project.logging.logger- INFO- Les valeurs manuelles calculé des churn sont: 0    26
+1    14
+Name: Churn_numeric, dtype: int64
+2025-09-02 00:17:25- src.Churn_Project.logging.logger- INFO- Data preview:
+   customerID  gender  SeniorCitizen Partner  ...              PaymentMethod  MonthlyCharges TotalCharges Churn
+0  1024-GUALD  Female              0     Yes  ...           Electronic check           24.80        24.80   Yes
+1  0484-JPBRU    Male              0      No  ...  Bank transfer (automatic)           25.25       996.45    No
+2  3620-EHIMZ  Female              0     Yes  ...               Mailed check           19.35      1031.70    No
+
+[3 rows x 21 columns]
+2025-09-02 00:17:25- src.Churn_Project.logging.logger- INFO- Taille du dataset: 40 lignes
+2025-09-02 00:17:25- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/data_transformation/preprocessor/preprocessor.pkl'>
+2025-09-02 00:17:25- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/model_trainer/save_model/model.pkl'>
+2025-09-02 00:17:26- src.Churn_Project.logging.logger- INFO- Fichier sauvegardé: artifact/predict_data/sample_predictions_1756765046.csv, Type: sample
+2025-09-02 00:17:35- src.Churn_Project.logging.logger- INFO- Data preview:
+   customerID  gender  SeniorCitizen Partner  ...     PaymentMethod  MonthlyCharges TotalCharges Churn
+0  7590-VHVEG  Female              0     Yes  ...  Electronic check           29.85        29.85    No
+1  5575-GNVDE    Male              0      No  ...      Mailed check           56.95       1889.5    No
+2  3668-QPYBK    Male              0      No  ...      Mailed check           53.85       108.15   Yes
+
+[3 rows x 21 columns]
+2025-09-02 00:17:35- src.Churn_Project.logging.logger- INFO- Taille du dataset: 7043 lignes
+2025-09-02 00:17:35- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/data_transformation/preprocessor/preprocessor.pkl'>
+2025-09-02 00:17:35- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/model_trainer/save_model/model.pkl'>
+2025-09-02 00:17:36- src.Churn_Project.logging.logger- INFO- Fichier sauvegardé: artifact/predict_data/global_predictions_1756765055.csv, Type: global
+2025-09-02 00:17:45- src.Churn_Project.logging.logger- INFO- Fichier sélectionné: global_predictions_1756765055.csv, Taille: 7043 lignes
+2025-09-02 00:17:48- src.Churn_Project.logging.logger- INFO- Les valeurs manuelles calculé des churn sont: 0    5174
+1    1869
+Name: Churn_numeric, dtype: int64
+2025-09-02 00:17:48- src.Churn_Project.logging.logger- INFO- La colonne customerID n'existe pas dans ce fichier uploadé
+2025-09-02 00:17:50- src.Churn_Project.logging.logger- INFO- Fichier sélectionné: global_predictions_1756765055.csv, Taille: 7043 lignes
+2025-09-02 00:17:57- src.Churn_Project.logging.logger- INFO- Les valeurs manuelles calculé des churn sont: 0    26
+1    14
+Name: Churn_numeric, dtype: int64
+2025-09-02 00:19:08- src.Churn_Project.logging.logger- INFO- Data preview:
+   customerID  gender  SeniorCitizen Partner  ...              PaymentMethod  MonthlyCharges TotalCharges Churn
+0  1024-GUALD  Female              0     Yes  ...           Electronic check           24.80        24.80   Yes
+1  0484-JPBRU    Male              0      No  ...  Bank transfer (automatic)           25.25       996.45    No
+2  3620-EHIMZ  Female              0     Yes  ...               Mailed check           19.35      1031.70    No
+
+[3 rows x 21 columns]
+2025-09-02 00:19:08- src.Churn_Project.logging.logger- INFO- Taille du dataset: 40 lignes
+2025-09-02 00:19:08- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/data_transformation/preprocessor/preprocessor.pkl'>
+2025-09-02 00:19:08- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/model_trainer/save_model/model.pkl'>
+2025-09-02 00:19:08- src.Churn_Project.logging.logger- INFO- Fichier sauvegardé: artifact/predict_data/sample_predictions_1756765148.csv, Type: sample
+2025-09-02 00:19:15- src.Churn_Project.logging.logger- INFO- Data preview:
+   customerID  gender  SeniorCitizen Partner  ...     PaymentMethod  MonthlyCharges TotalCharges Churn
+0  7590-VHVEG  Female              0     Yes  ...  Electronic check           29.85        29.85    No
+1  5575-GNVDE    Male              0      No  ...      Mailed check           56.95       1889.5    No
+2  3668-QPYBK    Male              0      No  ...      Mailed check           53.85       108.15   Yes
+
+[3 rows x 21 columns]
+2025-09-02 00:19:15- src.Churn_Project.logging.logger- INFO- Taille du dataset: 7043 lignes
+2025-09-02 00:19:15- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/data_transformation/preprocessor/preprocessor.pkl'>
+2025-09-02 00:19:15- src.Churn_Project.logging.logger- INFO- Numpy array sucessfully loaded from <_io.BufferedReader name='artifact/model_trainer/save_model/model.pkl'>
+2025-09-02 00:19:15- src.Churn_Project.logging.logger- INFO- Fichier sauvegardé: artifact/predict_data/global_predictions_1756765155.csv, Type: global
+2025-09-02 00:19:16- src.Churn_Project.logging.logger- INFO- Fichier sélectionné: global_predictions_1756765055.csv, Taille: 7043 lignes
+2025-09-02 00:19:18- src.Churn_Project.logging.logger- INFO- Les valeurs manuelles calculé des churn sont: 0    5174
+1    1869
+Name: Churn_numeric, dtype: int64
+2025-09-02 00:19:18- src.Churn_Project.logging.logger- INFO- La colonne customerID n'existe pas dans ce fichier uploadé
+2025-09-02 00:19:21- src.Churn_Project.logging.logger- INFO- Fichier sélectionné: global_predictions_1756765055.csv, Taille: 7043 lignes
+2025-09-02 00:19:27- src.Churn_Project.logging.logger- INFO- Les valeurs manuelles calculé des churn sont: 0    26
+1    14
+Name: Churn_numeric, dtype: int64
+2025-09-02 00:22:11- src.Churn_Project.logging.logger- INFO- Fichier sélectionné: global_predictions_1756765055.csv, Taille: 7043 lignes
+2025-09-02 00:22:15- src.Churn_Project.logging.logger- INFO- Les valeurs manuelles calculé des churn sont: 0    5174
+1    1869
+Name: Churn_numeric, dtype: int64
+2025-09-02 00:22:15- src.Churn_Project.logging.logger- INFO- La colonne customerID n'existe pas dans ce fichier uploadé
+2025-09-02 00:22:17- src.Churn_Project.logging.logger- INFO- Fichier sélectionné: global_predictions_1756765055.csv, Taille: 7043 lignes
