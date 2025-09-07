@@ -4,6 +4,9 @@ WORKDIR /app
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
+         ca-certificates \
+        curl \
+        gnupg \
         awscli && \
     rm -rf /var/lib/apt/lists/*
 
