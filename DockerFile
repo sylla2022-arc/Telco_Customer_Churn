@@ -3,6 +3,7 @@ FROM python:3.11-slim-bullseye
 WORKDIR /app
 COPY artifact/ artifact/
 COPY data_churn/ data_churn/
+# copier le reste des fichiers nécessaires
 COPY . /app
 
 RUN apt-get update && \
