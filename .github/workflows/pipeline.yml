@@ -65,7 +65,7 @@ jobs:
   continuous-deployment:
     name: Continuous Deployment
     needs: build-and-push-ecr-images
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
