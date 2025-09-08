@@ -1,4 +1,4 @@
-FROM python:3.10-slim-bullseye
+FROM python:3.10-bullseye
 
 WORKDIR /app
 
@@ -6,6 +6,8 @@ WORKDIR /app
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
         awscli \
+        tk-dev \           
+        python3-tk \ 
         && rm -rf /var/lib/apt/lists/*
 
 # Copier les fichiers de l'application
