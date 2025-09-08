@@ -91,15 +91,19 @@ jobs:
          
       - name: Stop and remove container if running
         run: |
-          docker ps -q --filter "name=TelcoChurn" | grep -q . \
-          && docker stop TelcoChurn \
-          && docker rm -fv TelcoChurn \
-          || true
+          # Arrêter et supprimer le conteneur s'il existe
+          if docker ps -a --format '{{.Names}}' | grep -q TelcoChurn; then
+            docker stop TelcoChurn || true
+            docker rm -fv TelcoChurn || true
+          fi
 
       - name: Run Docker Image to serve users
         run: |
-         docker run -d -p 8000:8000 --ipc="host" --name=TelcoChurn -e 'AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }}' -e 'AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }}' -e 'AWS_REGION=${{ secrets.AWS_REGION }}'  ${{secrets.AWS_ECR_LOGIN_URL}}/${{ secrets.ECR_REPOSITORY_NAME }}:latest
-      
+          docker run -d -p 8000:8000 --name=TelcoChurn \
+            -e AWS_ACCESS_KEY_ID='${{ secrets.AWS_ACCESS_KEY_ID }}' \
+            -e AWS_SECRET_ACCESS_KEY='${{ secrets.AWS_SECRET_ACCESS_KEY }}' \
+          -e AWS_REGION='${{ secrets.AWS_REGION }}' \
+          ${{secrets.AWS_ECR_LOGIN_URL}}/${{ secrets.ECR_REPOSITORY_NAME }}:latest
 
       - name: Clean unused Docker resources (images, containers, networks)
         run: |
