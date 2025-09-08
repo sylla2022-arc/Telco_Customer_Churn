@@ -7,10 +7,10 @@ import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
-API_URL_PREDICT  = "http://18.235.62.74:8000/predict"
-URL_TARGET_drift = "http://18.235.62.74:8000/target-drift"
-API_URL_PREDICT_SAMPLE_DRIFT = "http://18.235.62.74:8000/predict-sample-drift"
-URL_PERFORMANCE_METRICS= "http://18.235.62.74:8000/performance-metrics"
+API_URL_PREDICT  = "http://api:8000/predict"
+URL_TARGET_DRIFT = "http://api:8000/target-drift"
+API_URL_PREDICT_SAMPLE_DRIFT = "http://api:8000/predict-sample-drift"
+URL_PERFORMANCE_METRICS = "http://api:8000/performance-metrics"
 
 # Échantillon de données
 df_brute = pd.read_csv('data_churn/Customer_Churn.csv')
