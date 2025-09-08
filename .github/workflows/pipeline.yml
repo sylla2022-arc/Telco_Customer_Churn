@@ -6,9 +6,6 @@ on:
       - main
     paths-ignore:
       - 'README.md'
-permissions:
-  id-token: write
-  contents: read
 
 jobs:
   integration:
@@ -17,10 +14,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Lint code
-        run: echo 'Linting repository...'
-      - name: Run unit tests
-        run: echo 'Running unit tests...'
 
   build-and-push-ecr-images:
     name: Continuous Delivery
@@ -29,10 +22,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Install utilities
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq unzip
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
@@ -43,15 +32,9 @@ jobs:
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v1
       - name: Build, tag, and push image to Amazon ECR
-        id: build-image
-        env:
-          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-          ECR_REPOSITORY: ${{ secrets.ECR_REPOSITORY_NAME }}
-          IMAGE_TAG: latest
         run: |
-          docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
-          docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
-          echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
+          docker build -t ${{secrets.AWS_ECR_LOGIN_URL}}/${{ secrets.ECR_REPOSITORY_NAME }}:latest .
+          docker push ${{secrets.AWS_ECR_LOGIN_URL}}/${{ secrets.ECR_REPOSITORY_NAME }}:latest
 
   continuous-deployment:
     name: Continuous Deployment
@@ -60,35 +43,52 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Show runner info
-        run: |
-          uname -a
-          whoami
-          groups
+        
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }} 
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }} 
           aws-region: ${{ secrets.AWS_REGION }}
+          
       - name: Login to Amazon ECR
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v1
-      - name: Pull latest image
+
+      - name: Pull latest Docker image
         run: |
           docker pull ${{secrets.AWS_ECR_LOGIN_URL}}/${{ secrets.ECR_REPOSITORY_NAME }}:latest
 
       - name: Stop and remove existing containers
         run: |
-          docker-compose -f /home/ubuntu/telco_project/docker-compose.yml down || true
+          docker stop telco_api telco_streamlit || true
+          docker rm telco_api telco_streamlit || true
 
-      - name: Deploy with docker-compose
+      - name: Deploy FastAPI container
         run: |
-          cd /home/ubuntu/telco_project
-          docker-compose pull
-          docker-compose up -d --build
+          docker run -d \
+            --name telco_api \
+            -p 8000:8000 \
+            -e AWS_ACCESS_KEY_ID='${{ secrets.AWS_ACCESS_KEY_ID }}' \
+            -e AWS_SECRET_ACCESS_KEY='${{ secrets.AWS_SECRET_ACCESS_KEY }}' \
+            -e AWS_REGION='${{ secrets.AWS_REGION }}' \
+            ${{secrets.AWS_ECR_LOGIN_URL}}/${{ secrets.ECR_REPOSITORY_NAME }}:latest \
+            uvicorn app:app --host 0.0.0.0 --port 8000
 
-      - name: Clean unused Docker resources
+      - name: Deploy Streamlit container
         run: |
-          echo "Running docker system prune to free space..."
-          docker system prune -f
+          docker run -d \
+            --name telco_streamlit \
+            -p 8501:8501 \
+            -e AWS_ACCESS_KEY_ID='${{ secrets.AWS_ACCESS_KEY_ID }}' \
+            -e AWS_SECRET_ACCESS_KEY='${{ secrets.AWS_SECRET_ACCESS_KEY }}' \
+            -e AWS_REGION='${{ secrets.AWS_REGION }}' \
+            --link telco_api:api \
+            ${{secrets.AWS_ECR_LOGIN_URL}}/${{ secrets.ECR_REPOSITORY_NAME }}:latest \
+            streamlit run app_streamlit.py --server.address=0.0.0.0 --server.port=8501
+
+      - name: Verify deployment
+        run: |
+          docker ps
+          echo "FastAPI: http://$(curl -s ifconfig.me):8000"
+          echo "Streamlit: http://$(curl -s ifconfig.me):8501"

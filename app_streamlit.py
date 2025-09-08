@@ -7,10 +7,10 @@ import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
-API_URL_PREDICT  = "http://api:8000/predict"
-URL_TARGET_DRIFT = "http://api:8000/target-drift"
-API_URL_PREDICT_SAMPLE_DRIFT = "http://api:8000/predict-sample-drift"
-URL_PERFORMANCE_METRICS = "http://api:8000/performance-metrics"
+API_URL_PREDICT = "http://telco_api:8000/predict"
+URL_TARGET_DRIFT = "http://telco_api:8000/target-drift"
+API_URL_PREDICT_SAMPLE_DRIFT = "http://telco_api:8000/predict-sample-drift"
+URL_PERFORMANCE_METRICS = "http://telco_api:8000/performance-metrics"
 
 # Échantillon de données
 df_brute = pd.read_csv('data_churn/Customer_Churn.csv')
@@ -162,7 +162,7 @@ def main_app():
         try:
             if monitoring_type == "Monitoring Global":
                 # Monitoring global - données complètes
-                response = requests.get(URL_TARGET_drift).json()
+                response = requests.get(URL_TARGET_DRIFT).json()
                 response_perf = requests.get(URL_PERFORMANCE_METRICS).json()
                 st.success("Monitoring global effectué avec succès")
                 
