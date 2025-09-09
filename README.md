@@ -65,24 +65,24 @@ graph LR
     B --> C[Data Transformation]
     C --> D[Model Training]
 
-    %% Sous-graphe vertical sans titre visible (label = " ")
-    subgraph Vertical_Flow[ ]
-      direction TB
-      E[Model Deployment]
-      F[Model Monitoring]
-      G[Retraining]
+    %% Sous-graphe
+    subgraph Deployment_Flow[ ]
+        direction TB
+        E[Model Deployment]
+        F[Model Monitoring]
+        G[Retraining]
     end
     
     D --> E
+    F --> G
+    G --> D
     
     B --> H[Mlflow Evidently]
     
     H --> I[Data Drift]
     H --> J[Data Quality Checks]
 
-    id1(((On collecte les données, on entraîne le modèle,
-    on déploie, on surveille performance & qualité des données --Mlflow, Evidently-- 
-    Sylla)))
+    K[On collecte les données, on entraîne le modèle, on déploie, on surveille performance & qualité des données - Mlflow, Evidently - Sylla]
 ```
 ---
 
