@@ -83,7 +83,7 @@ graph LR
     id1(((On collecte les données, on entraîne le modèle,
     on déploie, on surveille performance & qualité des données --Mlflow, Evidently-- 
     Sylla)))
-
+```
 ---
 
 ## 🚀 Deploiement sur EC2
