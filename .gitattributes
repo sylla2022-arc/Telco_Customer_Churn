@@ -1,5 +1,10 @@
+# Ignore HTML and visualization artifacts for GitHub Linguist
 *.html linguist-detectable=false
 *.mmd linguist-detectable=false
 *.png linguist-detectable=false
 *.jpg linguist-detectable=false
 *.jpeg linguist-detectable=false
+*.svg linguist-detectable=false
+
+# Ensure Python is properly detected
+*.py linguist-language=Python
